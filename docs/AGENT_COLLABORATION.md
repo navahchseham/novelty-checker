@@ -3,9 +3,9 @@
 The submission rules require disclosure of coding-agent use and an explanation of how the
 agent was directed. This file is that record.
 
-**Agent used:** Claude Code (Anthropic), in the VS Code extension. Most work was done in one
-session (Claude Opus 5.5); the visualization views were implemented in a separate Claude Code
-session with Claude Sonnet 5 (commit `b2aef5c`, which carries a `Co-Authored-By` trailer).
+**Agent used:** Claude Code (Anthropic), in the VS Code extension.
+
+
 **Developer:** individual entry; all direction, review and decisions are the developer's.
 
 ## Working method
