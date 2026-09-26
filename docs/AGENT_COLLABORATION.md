@@ -3,9 +3,8 @@
 The submission rules require disclosure of coding-agent use and an explanation of how the
 agent was directed. This file is that record.
 
-**Agent used:** Claude Code (Anthropic), in the VS Code extension.
-
-
+**Agent used:** Claude Code (Anthropic), in the VS Code extension. Most work was done in one
+session (Claude Opus 5.5).
 **Developer:** individual entry; all direction, review and decisions are the developer's.
 
 ## Working method
@@ -21,10 +20,11 @@ Every piece of work followed the same developer-led loop:
 ```
 
 The developer set the structure of the work: first by directing a step-by-step
-breakdown of the problem statement, and then with their own design document
-([design_spec.pdf](design_spec.pdf)), whose pipeline stages became the build steps.
-Nothing moved to the next subtask without the developer's go-ahead. Design decisions and
-their evidence are in [DESIGN.md](DESIGN.md), and the step history is in [PLAN.md](PLAN.md).
+breakdown of the problem statement, and then with their own design documents
+([design_spec.pdf](design_spec.pdf) for the pipeline, [VISUALIZATIONS.md](VISUALIZATIONS.md)
+for the views), whose stages became the build steps. Nothing moved to the next subtask
+without the developer's go-ahead. Design decisions and their evidence are in
+[DESIGN.md](DESIGN.md), and the step history is in [PLAN.md](PLAN.md).
 
 ## Phase 1: Problem breakdown and first prototype
 
@@ -49,22 +49,23 @@ their evidence are in [DESIGN.md](DESIGN.md), and the step history is in [PLAN.m
 | 12 | **Decided to switch the judge to Groq** and provided the API key | Suggested `gpt-oss-120b` as the judge and a *different* model (`qwen`) to write the holdout, so the judge never scores its own model's text; key stored only in the git-ignored `.env` | Approved | `GroqLLM` adapter; change 14 |
 | 13 | Directed the final evaluation | Froze the design (fingerprint recorded), ran the holdout once, and reported the results as-is with a failure analysis and next steps | Reviewed the results | [EVALUATION.md](EVALUATION.md): dev 11/12, holdout 9/12 |
 
-## Phase 3: Packaging
+## Phase 3: Packaging, UI and visualization
 
 | # | Developer direction | Agent suggestion | Developer review / feedback | Implemented |
 |---|---------------------|------------------|-----------------------------|-------------|
 | 14 | Update `.gitignore` for the project | Keep `data/` tracked (the submission needs the dataset); add `.env.example` | Approved | `.gitignore`, `.env.example`, secret scan |
 | 15 | Add a single `main.py` entry point | One command per script, so each command has a single implementation | Approved | `main.py` with `score`, `evaluate`, `build-pool`, `generate`, `lambda-sweep` |
 | 16 | Build a Streamlit UI | Per-session pool, so reviewers can watch the first-mover effect without changing the saved data | Approved | `app.py`, tested headlessly (novel 1.00 → its paraphrase 0.21 → off-topic 0.00) |
-| 17 | **Specified five visualization views** ([VISUALIZATIONS.md](VISUALIZATIONS.md)): score breakdown, point-level LLM view, relevance vs novelty, novelty distribution, leaderboard, each marking the submitter as "You" | Implemented in a separate session (Claude Sonnet 5) from real pipeline output rather than the doc's illustrative numbers | Reviewed and committed | Visualizations tab, gate checklist, component bars, point-level view (`b2aef5c`) |
-| 18 | Asked to document the new views and explain what each stance does | Verified the app headlessly; moved the visualization doc into `docs/` with a status note (its numbers are illustrative, the app's are real); added a stance section (meaning, examples, role at each pipeline stage) and a stance tooltip in the app | Reviewed | DESIGN §1 *Stances*, DESIGN §8 *Visualization*, README |
+| 17 | **Specified five visualization views** ([VISUALIZATIONS.md](VISUALIZATIONS.md)): score breakdown, point-level LLM view, relevance vs novelty, novelty distribution, leaderboard, each marking the submitter as "You" | Implemented from real pipeline output rather than the doc's illustrative numbers; captured screenshots from the running app for the README; fixed overlapping rows in the point-level chart | Reviewed and committed | Visualizations tab, gate checklist, component bars, point-level view, README screenshots (`b2aef5c`, `e13ec09`) |
+| 18 | Asked for the topic choice to be documented, and for each stance to be explained | Explained that PS3 leaves the topic open; documented the fictional-article rationale and each stance's meaning and role at every pipeline stage | Approved | DESIGN §1 *Choice of topic* and *Stances*, README |
+| 19 | Asked for the examples and stances to explain themselves in the UI | Hover tooltips plus an on-load note for each example (what it demonstrates, expected score); a caption under each stance option, since Streamlit has no per-option hover | Approved | `app.py`, verified headlessly |
 
 ## Summary
 
 - **The developer owned the direction and the decisions:** the problem choice, dividing the
   work into subtasks, the core approach (semantic search + rubric LLM judge), the full
-  pipeline design document, the visualization design, the rarity decay λ, the provider switch,
-  and the review of every subtask before moving on.
+  pipeline design document, the visualization design, the rarity decay λ, the provider
+  switch, and the review of every subtask before moving on.
 - **The agent followed through on each subtask:** it investigated and measured, proposed
   suggestions, implemented the reviewed version, and verified it with tests.
 - **Every design refinement is backed by measured evidence** and recorded in

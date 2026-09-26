@@ -175,11 +175,9 @@ with tab_score:
         stance = st.radio("Stance", [s.value for s in Stance], key="stance", horizontal=True,
                           format_func=lambda s: s.replace("_", " "),
                           captions=[STANCE_INFO[s.value] for s in Stance],
-                          help="Your overall position on the charge: **support** (in favour as proposed), "
-                               "**support with changes** (in favour, but it needs changes), **oppose** "
-                               "(against it), **undecided** (not sure, or asking a question). Stance is "
-                               "context for the judge only: it does not change the score, so the same idea "
-                               "scores the same whichever side you are on.")
+                          help="Your overall position on the charge. Stance is context for the judge "
+                               "only: it does not change the score, so the same idea scores the same "
+                               "whichever side you are on.")
         add = st.checkbox("Add to the session pool after scoring (later submissions are compared against it)",
                           value=True)
         submitted = st.form_submit_button("Score", type="primary")
@@ -264,7 +262,7 @@ with tab_score:
                                                 range=["#54A24B", "#E45756", "#B0B0B0"]),
                                 legend=alt.Legend(title=None)),
                 tooltip=["point", "status", "match", "weight"],
-            ).properties(height=32 * len(pts_df) + 20)
+            ).properties(height=alt.Step(32))
             st.altair_chart(point_chart, width='stretch')
             st.caption("Hover a bar to see the earlier point it was judged to repeat.")
             rows = [{"": "📰 article" if p["restates_article"] else ("✨ NEW" if p["prior_mentions"] == 0

@@ -1,11 +1,13 @@
 # Novelty Scoring Visualizations
 
+
 > **Status: implemented** in the Streamlit app ([app.py](../app.py)): the gate checklist,
 > score-component bars and point-level LLM view on the **Score a submission** tab, and the
-> scatter, distribution and leaderboard on the **Visualizations** tab. The app computes every
-> view from **real pipeline output** (`data/corpus_scores.json` for the pool, live results for
-> new submissions). The numbers in *this* document are the original illustrative values and use
-> the original design's parameters (α = 0.7, λ = 2, `DUP_MAX` 0.9); the implemented values are in
+> scatter, distribution and leaderboard on the **Visualizations** tab (screenshots in the
+> [README](../README.md#visualizations)). The app computes every view from **real pipeline
+> output** (`data/corpus_scores.json` for the pool, live results for new submissions). The
+> numbers in *this* document are the original illustrative values and use the original
+> design's parameters (α = 0.7, λ = 2, `DUP_MAX` 0.9); the implemented values are in
 > [DESIGN.md §5](DESIGN.md#5-parameters-and-calibration).
 
 ## Purpose

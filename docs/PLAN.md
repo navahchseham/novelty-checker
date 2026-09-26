@@ -29,7 +29,7 @@ rebuild on the design spec ([design_spec.pdf](design_spec.pdf)).
 | R6 | Pipeline and CLI | `novelty/pipeline.py`, `scripts/score.py` | ✅ |
 | R7 | Tests: offline (stubbed LLM) and live | `tests/` | ✅ |
 | R8 | Calibrate, build pool, evaluate, write up | `scripts/build_pool.py`, `scripts/evaluate.py`, `docs/EVALUATION.md` | ✅ |
-| R9 | Entry point, web UI and visualizations | `main.py`, `app.py`, `docs/VISUALIZATIONS.md` | ✅ |
+| R9 | Entry point, web UI and visualizations | `main.py`, `app.py`, `docs/VISUALIZATIONS.md`, `docs/screenshots/` | ✅ |
 
 ## Progress log
 
@@ -92,13 +92,12 @@ rebuild on the design spec ([design_spec.pdf](design_spec.pdf)).
 - **Packaging.** Added the single entry point `main.py` and a Streamlit UI (`app.py`),
   tested headlessly: a novel idea scores 1.00, its paraphrase 0.21, off-topic 0.00.
 - **Visualizations.** The developer specified five views (`docs/VISUALIZATIONS.md`) and
-  implemented them in the app from real pipeline output: gate checklist, score-component
-  bars, point-level LLM view, relevance-vs-novelty scatter, novelty distribution, and a
-  leaderboard, with the submitter's comment always marked "You". Verified headlessly: all
-  four tabs render, and scoring works end to end.
-- **Docs.** Added the topic rationale and a full explanation of stances (what each means,
-  and that stance is judge context only, never a score factor) to DESIGN §1 and the README;
-  added a stance help tooltip in the app.
-- **UI explanations.** Each example button explains on hover (and above the form once
-  loaded) what it demonstrates and its expected score; each stance option shows its meaning
-  as a caption.
+  implemented them from real pipeline output: gate checklist, score-component bars,
+  point-level LLM view, relevance-vs-novelty scatter, novelty distribution, and a
+  leaderboard, with the submitter's comment always marked "You". README screenshots were
+  captured from the running app; the point-level chart's overlapping rows were fixed.
+- **Docs and UI explanations.** Added the topic rationale and a full explanation of stances
+  (each stance's meaning, and that stance is judge context only, never a score factor) to
+  DESIGN §1 and the README. In the app, each example button explains on hover (and above
+  the form once loaded) what it demonstrates and its expected score, and each stance option
+  shows its meaning as a caption.

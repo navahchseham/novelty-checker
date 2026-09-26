@@ -82,26 +82,61 @@ N_point 1.00 | quality 3/4 -> Q 1.00 | neighbours 0
 streamlit run app.py        # opens http://localhost:8501
 ```
 
-- **Score a submission:** shows the article, a form (with example buttons: novel idea,
-  common take, generic praise, off-topic, prompt injection; hover a button, or load it, to
-  see what it demonstrates and the expected score; each stance option shows its meaning
-  underneath), and the result:
-  - the score, status and the judge's reason;
-  - a **gate checklist** (validate, relevance floor, duplicate, on-topic);
-  - **score-component bars** (α·`N_point` and (1−α)·`N_sem`, times the quality factor);
-  - the **point-level LLM view**: each extracted point's rarity weight, marked new,
-    matched (with m) or article; hover to see the earlier point it matched.
-- **Visualizations** tab ([design](docs/VISUALIZATIONS.md)), built from real pipeline output,
-  with your latest submission marked "You":
-  - **relevance vs novelty scatter**: off-topic ideas sit high on novelty but left of the
-    relevance floor;
-  - **novelty distribution** of the pool, with your submission marked;
-  - **leaderboard** with percentile, new points and first-mover badges; your row is pinned.
+- **Score a submission:** shows the article, a form, and the score with its breakdown:
+  gates, `N_sem`, `N_point`, quality, and each extracted point marked ✨ NEW / 🔁 m=… /
+  📰 article.
+  - **Example buttons** (novel idea, common take, generic praise, off-topic, prompt
+    injection): hover a button, or load it, to see what it demonstrates and its expected
+    score.
+  - **Stances:** each option shows its meaning underneath; the ⓘ icon explains that stance
+    does not change the score.
 - **Session pool:** scored submissions join *your session's* copy of the pool. Submit an
   idea, then a paraphrase of it, and the second one scores low. The pool on disk is never
   modified; "Reset session pool" starts over.
 - **Pool** tab: every canonical point and how many submissions made it. **Evaluation** tab:
   the success criteria for the dev and holdout sets.
+
+### Visualizations
+
+The **Visualizations** tab and the score breakdown implement the five views from
+[docs/VISUALIZATIONS.md](docs/VISUALIZATIONS.md). Every number
+comes from the real pipeline — `data/corpus_scores.json` for the checked-in pool, live
+`ScoreResult`s for anything scored in the session — never illustrative placeholders.
+
+**Gates + score components.** Pass/fail for validate, relevance floor, duplicate and
+on-topic, then a bar chart showing how much `α·N_point` and `(1-α)·N_sem` each contributed
+before the quality factor is applied.
+
+![Gates and score components](docs/screenshots/gates.png)
+
+**Point-level LLM view.** For each atomic point extracted from the submission: whether the
+judge matched it to an earlier point, how many prior submissions made it (`m`), and the
+resulting rarity weight `w(m) = exp(-m/λ)`. A first-mover point (`m = 0`) gets the full bar;
+a heavily-repeated point shrinks toward zero.
+
+![Point-level LLM view](docs/screenshots/point_level_table.png)
+
+**Relevance vs. novelty.** Every pooled submission plotted by how on-topic it is (x-axis)
+against how different it is from everything else (y-axis), colored by final score. The
+dashed red line is the relevance floor — anything left of it scores 0 regardless of how
+novel it looks, which is why off-topic-but-original submissions (biryani recipes, sports
+reports) cluster high on novelty but still fail. Your own submission is the gold
+red-ringed diamond, labeled "You".
+
+![Relevance vs novelty scatter](docs/screenshots/scatter.png)
+
+**Novelty distribution.** A histogram of leave-one-out novelty across the whole pool (each
+submission scored against everyone else) — the reference distribution the pipeline's
+percentile is computed against. The red line marks where your submission lands.
+
+![Novelty distribution](docs/screenshots/distribution.png)
+
+**Leaderboard.** Every pooled submission ranked by final score, with its percentile against
+the rest of the pool, how many of its points were brand new, its rarest point's share of the
+pool, and a first-mover badge. Your row is pinned in gold even if it falls outside the top
+10, so you always know exactly where you stand.
+
+![Leaderboard](docs/screenshots/leaderboard.png)
 
 ## Tests
 
@@ -118,7 +153,7 @@ API responses are cached in `.cache/` by content hash, so reruns are free and re
 
 ```bash
 python main.py generate                     # corpus (50) + dev set (23), from data/angles.json
-python main.py generate --holdout           # holdout test set (19), different seed and writer model
+python main.py generate --holdout           # holdout test set (19)
 python main.py build-pool                   # calibrate thresholds on the corpus, build the pool
 ```
 
@@ -140,7 +175,7 @@ novelty/            the library
 scripts/            the commands behind main.py: generate_data, build_pool, evaluate, score, lambda_sweep
 data/               article, angle plan, corpus, dev and holdout sets, pool, params, results
 tests/              offline unit tests + live tests
-docs/               DESIGN, EVALUATION, VISUALIZATIONS, PLAN, AGENT_COLLABORATION, design_spec.pdf
+docs/               DESIGN, EVALUATION, VISUALIZATIONS, PLAN, AGENT_COLLABORATION, design_spec.pdf, screenshots/
 archive/riverton/   first iteration, kept for the record
 ```
 
@@ -148,10 +183,10 @@ archive/riverton/   first iteration, kept for the record
 
 - [docs/DESIGN.md](docs/DESIGN.md): engineering design, rationale, the 14 changes from the spec
   - Explains how the pipeline is built: the topic choice, the submission format and what
-    each stance does, each stage and the module
-    that implements it, the scoring formula, the dataset, the calibrated parameters, the
-    success criteria, the testing strategy, the visualizations and the limitations. Every refinement to the
-    original design is listed with the measurement that motivated it.
+    each stance does, each stage and the module that implements it, the scoring formula, the
+    dataset, the calibrated parameters, the success criteria, the testing strategy, the
+    visualizations and the limitations. Every refinement to the original design is listed
+    with the measurement that motivated it.
 - [docs/EVALUATION.md](docs/EVALUATION.md): success criteria and level of achievement
   - Reports the results of criteria SC1–SC12 on the development set (11/12) and the frozen
     holdout set (9/12), explains why each failure happened, and lists the next steps.

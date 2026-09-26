@@ -1,8 +1,8 @@
 # Design: Novelty Scoring Pipeline
 
 **Basis:** [design_spec.pdf](design_spec.pdf), *Novelty Scoring Pipeline for User-Generated
-Content*, the developer's design document (2026-09-26). This document records how that design was
-implemented, and every place where we deviated from it, with the evidence for each change.
+Content*, the developer's design document (2026-09-26). This document records how that design
+was implemented, and every place where we deviated from it, with the evidence for each change.
 An earlier iteration (Riverton four-day week) is archived in
 [../archive/riverton/](../archive/riverton/README.md). Its measurements motivated several of
 the changes below.
@@ -84,6 +84,9 @@ This is deliberate:
 "unfair to low-income drivers" as `oppose` or `support_with_changes`), rotating across
 authors (`data/angles.json`). The corpus has 20 `oppose`, 14 `support_with_changes`,
 11 `support` and 5 `undecided`.
+
+**In the UI**, each stance option shows its meaning as a caption, and the field's ⓘ tooltip
+explains that stance does not change the score.
 
 Not implemented (see the design document's extensions): *structural novelty*, rewarding
 rare stance–argument pairings, such as opposing the charge on environmental grounds when
@@ -251,7 +254,8 @@ words. They check logic, not thresholds. Absolute thresholds that depend on real
 ## 8. Visualization
 
 The Streamlit app ([app.py](../app.py), `streamlit run app.py`) implements the views
-specified in [VISUALIZATIONS.md](VISUALIZATIONS.md), all computed from real pipeline output:
+specified in [VISUALIZATIONS.md](VISUALIZATIONS.md), all computed from real pipeline output
+(screenshots in the [README](../README.md#visualizations)):
 
 | View | Where | Answers |
 |------|-------|---------|
@@ -266,6 +270,9 @@ never joined the pool. Pool rows come from `data/corpus_scores.json` (written by
 `build-pool`). One simplification: pool relevance in the scatter is the cosine of the combined
 headline + body embedding to the article (a proxy), while this session's submissions use the
 exact 0.3·headline + 0.7·body relevance.
+
+The UI also explains itself: each example button says, on hover and above the form once
+loaded, what it demonstrates and its expected score; each stance option shows its meaning.
 
 ## 9. Limitations
 
