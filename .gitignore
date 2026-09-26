@@ -1,0 +1,46 @@
+# --- secrets -------------------------------------------------------------
+# API keys live in .env (see .env.example for the variable names).
+.env
+.env.*
+!.env.example
+
+# --- python environments -------------------------------------------------
+myvenv/
+.venv/
+venv/
+env/
+
+# --- python build / bytecode ---------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- tool caches ---------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- LLM / embedding response cache --------------------------------------
+# Regenerable by re-running the scripts (costs API calls). Everything the tests and
+# docs depend on is checked in under data/ (corpus, golden sets, pool, params, results).
+.cache/
+
+# --- logs and scratch ----------------------------------------------------
+*.log
+scratch/
+tmp/
+
+# --- OS / editor ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+.claude/
+archive/
+.DS_Store
