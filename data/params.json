@@ -1,0 +1,17 @@
+{
+  "r_min": 0.5835,
+  "r_body_min": 0.6009,
+  "headline_weight": 0.3,
+  "dup_max": 0.9566,
+  "t": 0.7811,
+  "k_max": 15,
+  "show_all_below": 150,
+  "fallback_common_points": 10,
+  "rarity_lambda": 0.4,
+  "article_prior_mentions": 10,
+  "q_min": 0.4,
+  "q_full": 0.7,
+  "alpha": 0.85,
+  "sem_top_k": 5,
+  "sem_max_weight": 0.5
+}

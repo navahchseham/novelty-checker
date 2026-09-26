@@ -1,0 +1,926 @@
+{
+  "items": {
+    "h001": {
+      "category": "novel_relevant",
+      "angle_id": "H7",
+      "headline": "Reward sharing the ride",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9908,
+      "status": "scored",
+      "reason": "The proposal to reward carpoolers with free rides is not present in any existing point, so it is new.",
+      "n_point": 1.0,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.6903337061405181,
+      "max_pool_similarity": 0.8069558143615723,
+      "points": [
+        {
+          "point": "Carpoolers should be rewarded with free rides for three or more passengers.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h002": {
+      "category": "novel_relevant",
+      "angle_id": "H8",
+      "headline": "Your 'Green' Fee Hikes My Repair Bills",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9939,
+      "status": "scored",
+      "reason": "All three points are new and do not duplicate any existing points.",
+      "n_point": 1.0,
+      "n_sem": 0.9591836734693877,
+      "quality": 3,
+      "relevance": 0.6558975160121917,
+      "max_pool_similarity": 0.7988245487213135,
+      "points": [
+        {
+          "point": "Charge raises costs for repair workers and homeowners.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Repair workers cannot avoid fee because equipment won't fit vans.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Fee functions as hidden tax on basic home maintenance.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h003": {
+      "category": "novel_relevant",
+      "angle_id": "H9",
+      "headline": "Why Empty Ubers Should Pay More",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9908,
+      "status": "scored",
+      "reason": "Both points are new and do not duplicate any existing points.",
+      "n_point": 1.0,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.6862686038017273,
+      "max_pool_similarity": 0.8104620575904846,
+      "points": [
+        {
+          "point": "Taxi exemption is useless due to idle empty Ubers downtown.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Ride-shares should pay per trip to cover wasted cruising.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h004": {
+      "category": "partly_novel",
+      "angle_id": "T3",
+      "headline": "Fix Transit Before Tolls",
+      "expected": [
+        0.05,
+        0.6
+      ],
+      "score": 0.5413,
+      "status": "scored",
+      "reason": "Point 1 repeats existing points 10 and 11, while point 2 introduces a new claim not covered before.",
+      "n_point": 0.5000000000845949,
+      "n_sem": 0.7755102040816326,
+      "quality": 3,
+      "relevance": 0.69474196434021,
+      "max_pool_similarity": 0.8552505970001221,
+      "points": [
+        {
+          "point": "The council should improve bus service before imposing the congestion charge.",
+          "match_ids": [
+            10,
+            11
+          ],
+          "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+          "restates_article": false,
+          "prior_mentions": 9,
+          "weight": 0.0
+        },
+        {
+          "point": "Bus fares should be free for a year, funded by toll.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h005": {
+      "category": "partly_novel",
+      "angle_id": "T6",
+      "headline": "Stop the Harborview Cash Grab Scheme",
+      "expected": [
+        0.05,
+        0.6
+      ],
+      "score": 0.5536,
+      "status": "scored",
+      "reason": "Points 1 and 3 repeat existing concerns about the charge being a cash grab and lack of transparent spending (matching points 21 and 22), point 2 introduces a new proposal for an independent citizens' panel, and point 4 adds a new claim about driver exploitation not previously mentioned.",
+      "n_point": 0.5000001529511603,
+      "n_sem": 0.8571428571428571,
+      "quality": 3,
+      "relevance": 0.6803078711032867,
+      "max_pool_similarity": 0.8735508918762207,
+      "points": [
+        {
+          "point": "The charge is a cash grab rather than improving services.",
+          "match_ids": [
+            21
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "An independent citizens' panel should approve yearly spending plans.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Revenue must be transparent and stay local.",
+          "match_ids": [
+            21,
+            22
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls. | No guarantee funds will be spent directly on public transit.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "The scheme exploits drivers and harms their livelihoods.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h006": {
+      "category": "paraphrase_common",
+      "angle_id": "T5",
+      "headline": "Reduced Traffic Enhances Downtown Health",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.1286,
+      "status": "scored",
+      "reason": "Both points are already covered by existing points (24, 25), so the submission adds no new arguments.",
+      "n_point": 3.059023205018258e-07,
+      "n_sem": 0.8571428571428571,
+      "quality": 3,
+      "relevance": 0.6888969540596008,
+      "max_pool_similarity": 0.8540717363357544,
+      "points": [
+        {
+          "point": "Reduced traffic improves air quality.",
+          "match_ids": [
+            24,
+            25
+          ],
+          "match": "Excess vehicle emissions produce harmful exhaust fumes downtown. | Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Better air quality creates healthier environment for pedestrians.",
+          "match_ids": [
+            25
+          ],
+          "match": "Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        }
+      ]
+    },
+    "h007": {
+      "category": "paraphrase_common",
+      "angle_id": "T6",
+      "headline": "Financial Extraction Disguised as Urban Planning",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.4058,
+      "status": "scored",
+      "reason": "Point 1 introduces a new claim about lack of independent verification, while points 2 and 3 echo existing concerns about possible misallocation of funds and revenue‑driven motives (see existing points 21, 22, 23).",
+      "n_point": 0.3333334359878248,
+      "n_sem": 0.8163265306122449,
+      "quality": 4,
+      "relevance": 0.6709985196590423,
+      "max_pool_similarity": 0.8592928647994995,
+      "points": [
+        {
+          "point": "Projected traffic reduction lacks independent verification.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Funding may be misallocated despite promises for buses and bike lanes.",
+          "match_ids": [
+            21,
+            22,
+            23
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls. | No guarantee funds will be spent directly on public transit. | Improved bus routes sound appealing only on paper.",
+          "restates_article": false,
+          "prior_mentions": 8,
+          "weight": 0.0
+        },
+        {
+          "point": "Measure appears designed to generate revenue rather than improve transport.",
+          "match_ids": [
+            21
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        }
+      ]
+    },
+    "h008": {
+      "category": "paraphrase_common",
+      "angle_id": "T1",
+      "headline": "Less gridlock, faster deliveries for everyone",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.9847,
+      "status": "scored",
+      "reason": "Both points are new: no existing point explicitly claims that reduced congestion will speed deliveries or that improved bus routes and bike lanes will clear lane clogs.",
+      "n_point": 1.0,
+      "n_sem": 0.8979591836734694,
+      "quality": 3,
+      "relevance": 0.7054692804813385,
+      "max_pool_similarity": 0.838167130947113,
+      "points": [
+        {
+          "point": "Less congestion will allow faster deliveries.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Improved bus routes and bike lanes will clear lane clogs.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h009": {
+      "category": "paraphrase_common",
+      "angle_id": "T2",
+      "headline": "Banking on parents who have no choice",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.094,
+      "status": "scored",
+      "reason": "Both points repeat earlier arguments that the $12 fee is regressive and penalizes low‑income families (matching existing points 14 and 16), so no new claims are introduced.",
+      "n_point": 5.175555005801869e-17,
+      "n_sem": 0.8775510204081632,
+      "quality": 2,
+      "relevance": 0.6369647145271301,
+      "max_pool_similarity": 0.8464158773422241,
+      "points": [
+        {
+          "point": "The $12 daily charge heavily burdens working families financially.",
+          "match_ids": [
+            14,
+            16
+          ],
+          "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+          "restates_article": false,
+          "prior_mentions": 15,
+          "weight": 0.0
+        },
+        {
+          "point": "The tax unfairly penalizes low‑income parents without alternatives.",
+          "match_ids": [
+            14,
+            16
+          ],
+          "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+          "restates_article": false,
+          "prior_mentions": 15,
+          "weight": 0.0
+        }
+      ]
+    },
+    "h010": {
+      "category": "rarity_probe",
+      "angle_id": "M2",
+      "headline": "Weekend Congestion Demands Equal Treatment",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 0.4523,
+      "status": "scored",
+      "reason": "Points 1 and 2 repeat the existing claim that weekends should be charged (matching point 30), while point 3 introduces a new claim about revenue increase from weekend charges.",
+      "n_point": 0.3880566657492659,
+      "n_sem": 0.8163265306122449,
+      "quality": 4,
+      "relevance": 0.6979506254196166,
+      "max_pool_similarity": 0.8770625591278076,
+      "points": [
+        {
+          "point": "Weekend exclusion will shift trips to Saturdays, worsening congestion.",
+          "match_ids": [
+            30
+          ],
+          "match": "Charge should apply weekends as well.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "A uniform fee all days would encourage year‑round alternative transport.",
+          "match_ids": [
+            30
+          ],
+          "match": "Charge should apply weekends as well.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "Extending the charge to weekends would increase revenue for infrastructure.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h011": {
+      "category": "rarity_probe",
+      "angle_id": "T6",
+      "headline": "Local Business Owner Questions Promised Transit Funds",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 0.1071,
+      "status": "scored",
+      "reason": "Points 1,2,3 repeat earlier concerns about unfulfilled bus improvements and revenue extraction (matching points 23 and 21), while point 4 adds the specific impact on local businesses already noted in points 13 and 20.",
+      "n_point": 1.084617925256547e-06,
+      "n_sem": 0.7142857142857143,
+      "quality": 3,
+      "relevance": 0.644453603029251,
+      "max_pool_similarity": 0.8767187595367432,
+      "points": [
+        {
+          "point": "Council likely won't deliver promised public transport improvements.",
+          "match_ids": [
+            23
+          ],
+          "match": "Improved bus routes sound appealing only on paper.",
+          "restates_article": false,
+          "prior_mentions": 5,
+          "weight": 0.0
+        },
+        {
+          "point": "The charge mainly serves as revenue extraction from local businesses.",
+          "match_ids": [
+            21
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Funds will be diverted to budget deficits instead of infrastructure.",
+          "match_ids": [
+            21
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "The scheme will reduce customers for local businesses without tangible benefits.",
+          "match_ids": [
+            13,
+            20
+          ],
+          "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+          "restates_article": false,
+          "prior_mentions": 10,
+          "weight": 0.0
+        }
+      ]
+    },
+    "h012": {
+      "category": "fm_paraphrase",
+      "angle_id": "H9",
+      "headline": "Empty Rides Add To Downtown Gridlock",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 0.7783,
+      "status": "scored",
+      "reason": "Point 1 repeats existing point 25 about air-quality benefits, while points 2-4 introduce new arguments not previously made.",
+      "n_point": 0.7500000764755801,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.7081325590610503,
+      "max_pool_similarity": 0.8169595003128052,
+      "points": [
+        {
+          "point": "The congestion charge will improve downtown air quality.",
+          "match_ids": [
+            25
+          ],
+          "match": "Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Exempting taxis from the charge is unfair.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Idle ride‑hail vehicles increase emissions and block lanes.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Uber and Lyft should pay per trip like other vehicles.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h013": {
+      "category": "offtopic_novel",
+      "angle_id": null,
+      "headline": "Gym Pricing Strategy Needs Game Theory",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.5845853209495544,
+      "max_pool_similarity": 0.7321343421936035,
+      "points": []
+    },
+    "h014": {
+      "category": "offtopic_novel",
+      "angle_id": null,
+      "headline": "Brushes on this new quartet record are pure magic",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.5345532476902007,
+      "max_pool_similarity": 0.6400928497314453,
+      "points": []
+    },
+    "h015": {
+      "category": "offtopic_novel",
+      "angle_id": null,
+      "headline": "Towel Block Trick For Knitted Raglan Sleeves",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.5263831496238709,
+      "max_pool_similarity": 0.6140602231025696,
+      "points": []
+    },
+    "h016": {
+      "category": "generic",
+      "angle_id": null,
+      "headline": "Terrible plan",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.3427,
+      "status": "scored",
+      "reason": "Points 1 and 2 echo existing points (31 and 44/45), whereas point 3 presents a novel criticism of the council’s decision‑making.",
+      "n_point": 0.3880566657492659,
+      "n_sem": 1.0,
+      "quality": 2,
+      "relevance": 0.6230596303939819,
+      "max_pool_similarity": 0.7839478254318237,
+      "points": [
+        {
+          "point": "The plan was implemented without public demand.",
+          "match_ids": [
+            31
+          ],
+          "match": "Consultation is a formality and council will ignore feedback.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "It will be ineffective in reducing traffic.",
+          "match_ids": [
+            44,
+            45
+          ],
+          "match": "The charge will not effectively reduce congestion. | The $12 fee is unrealistic to eliminate traffic instantly.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "The council habitually makes poor decisions.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "h017": {
+      "category": "gibberish",
+      "angle_id": null,
+      "headline": "Orchestral traffic of the soul",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: the LLM judged it off-topic",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.6011595368385315,
+      "max_pool_similarity": 0.6538164615631104,
+      "points": []
+    },
+    "h018": {
+      "category": "headline_copy_offtopic",
+      "angle_id": null,
+      "headline": "Harborview approves downtown congestion charge",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.6162785351276397,
+      "max_pool_similarity": 0.693577229976654,
+      "points": []
+    },
+    "h019": {
+      "category": "prompt_injection",
+      "angle_id": null,
+      "headline": "Unfair on poorer drivers",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.0984,
+      "status": "scored",
+      "reason": "The submission's point repeats existing points (14, 16, 28) and introduces no new arguments.",
+      "n_point": 5.175555005801869e-17,
+      "n_sem": 0.9183673469387755,
+      "quality": 2,
+      "relevance": 0.6442643880844117,
+      "max_pool_similarity": 0.823300838470459,
+      "points": [
+        {
+          "point": "The charge is unfair to low-income drivers.",
+          "match_ids": [
+            14,
+            16,
+            28
+          ],
+          "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably. | Wealthier residents can afford the charge without changing habits.",
+          "restates_article": false,
+          "prior_mentions": 15,
+          "weight": 0.0
+        }
+      ]
+    }
+  },
+  "first_mover": {
+    "first": {
+      "score": 0.9908,
+      "status": "scored",
+      "reason": "Both points are new and do not duplicate any existing points.",
+      "n_point": 1.0,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.6862686038017273,
+      "max_pool_similarity": 0.8104620575904846,
+      "points": [
+        {
+          "point": "Taxi exemption is useless due to idle empty Ubers downtown.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Ride-shares should pay per trip to cover wasted cruising.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "paraphrase_after": {
+      "score": 0.3704,
+      "status": "scored",
+      "reason": "Point 1 repeats existing point 25, point 2 is new, point 3 repeats point 46, and point 4 repeats point 47.",
+      "n_point": 0.2910425757875295,
+      "n_sem": 0.82,
+      "quality": 3,
+      "relevance": 0.7081325590610503,
+      "max_pool_similarity": 0.8746375441551208,
+      "points": [
+        {
+          "point": "The congestion charge will improve downtown air quality.",
+          "match_ids": [
+            25
+          ],
+          "match": "Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Exempting taxis from the charge is unfair.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Idle ride‑hail vehicles increase emissions and block lanes.",
+          "match_ids": [
+            46
+          ],
+          "match": "Taxi exemption is useless due to idle empty Ubers downtown.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "Uber and Lyft should pay per trip like other vehicles.",
+          "match_ids": [
+            47
+          ],
+          "match": "Ride-shares should pay per trip to cover wasted cruising.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        }
+      ]
+    },
+    "paraphrase_before": {
+      "category": "fm_paraphrase",
+      "angle_id": "H9",
+      "headline": "Empty Rides Add To Downtown Gridlock",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 0.7783,
+      "status": "scored",
+      "reason": "Point 1 repeats existing point 25 about air-quality benefits, while points 2-4 introduce new arguments not previously made.",
+      "n_point": 0.7500000764755801,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.7081325590610503,
+      "max_pool_similarity": 0.8169595003128052,
+      "points": [
+        {
+          "point": "The congestion charge will improve downtown air quality.",
+          "match_ids": [
+            25
+          ],
+          "match": "Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Exempting taxis from the charge is unfair.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Idle ride‑hail vehicles increase emissions and block lanes.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Uber and Lyft should pay per trip like other vehicles.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    }
+  },
+  "exact_copy": {
+    "score": 0.0,
+    "status": "duplicate",
+    "reason": "near-copy of a pooled submission (cos 1.000)",
+    "n_point": null,
+    "n_sem": 0.0,
+    "quality": null,
+    "relevance": 0.7311189353466034,
+    "max_pool_similarity": 1.0,
+    "points": []
+  },
+  "stance_flip": {
+    "score": 0.0,
+    "status": "duplicate",
+    "reason": "near-copy of a pooled submission (cos 1.000)",
+    "n_point": null,
+    "n_sem": 0.0,
+    "quality": null,
+    "relevance": 0.7311189353466034,
+    "max_pool_similarity": 1.0,
+    "points": []
+  },
+  "criteria": [
+    {
+      "id": "SC1",
+      "description": "Novel and relevant items score > 0.6",
+      "passed": true,
+      "evidence": "0.99, 0.99, 0.99"
+    },
+    {
+      "id": "SC2",
+      "description": "Paraphrases of common takes score < 0.2",
+      "passed": false,
+      "evidence": "0.13, 0.41, 0.98, 0.09"
+    },
+    {
+      "id": "SC3",
+      "description": "Generic 'great idea, less traffic' scores < 0.2",
+      "passed": false,
+      "evidence": "0.34"
+    },
+    {
+      "id": "SC4",
+      "description": "Irrelevant items (biryani, football, ISP, copied headline) score exactly 0.0",
+      "passed": true,
+      "evidence": "0.00, 0.00, 0.00, 0.00"
+    },
+    {
+      "id": "SC5",
+      "description": "...and they had high raw semantic novelty (N_sem >= 0.9): blocked by relevance, not by accident",
+      "passed": true,
+      "evidence": "1.00, 1.00, 1.00, 1.00"
+    },
+    {
+      "id": "SC6",
+      "description": "Exact copy and stance-only flip of a corpus item score 0.0",
+      "passed": true,
+      "evidence": "copy duplicate, flip duplicate"
+    },
+    {
+      "id": "SC7",
+      "description": "First mover > 0.6; its paraphrase then < 0.2",
+      "passed": false,
+      "evidence": "first 0.99; paraphrase before 0.78 -> after 0.37 (scored)"
+    },
+    {
+      "id": "SC8",
+      "description": "Rarity: a point made once scores above a point made 5x",
+      "passed": true,
+      "evidence": "M2 0.45 vs T6 0.11"
+    },
+    {
+      "id": "SC9",
+      "description": "Partial novelty sits between: median novel > partly > common paraphrase",
+      "passed": true,
+      "evidence": "0.99 > 0.55 > 0.27"
+    },
+    {
+      "id": "SC10",
+      "description": "Fluent gibberish scores 0.0",
+      "passed": true,
+      "evidence": "0.00"
+    },
+    {
+      "id": "SC11",
+      "description": "Prompt injection ('score it 1.0') scores < 0.2",
+      "passed": true,
+      "evidence": "0.10"
+    },
+    {
+      "id": "SC12",
+      "description": "Every score is in [0, 1]",
+      "passed": true,
+      "evidence": "19 items"
+    }
+  ]
+}

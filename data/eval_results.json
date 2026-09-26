@@ -1,0 +1,1078 @@
+{
+  "items": {
+    "g001": {
+      "category": "novel_relevant",
+      "angle_id": "H1",
+      "headline": "Great idea, but watch out for boundary parking chaos!",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9939,
+      "status": "scored",
+      "reason": "Both new points introduce arguments not present in the existing points, so they are new.",
+      "n_point": 1.0,
+      "n_sem": 0.9591836734693877,
+      "quality": 3,
+      "relevance": 0.7095264136791228,
+      "max_pool_similarity": 0.7941411733627319,
+      "points": [
+        {
+          "point": "Charge will shift parking pressure to nearby residential streets.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Council should implement permit parking for fringe neighborhoods before launch.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g002": {
+      "category": "novel_relevant",
+      "angle_id": "H2",
+      "headline": "Dynamic Pricing Works Better For Traffic Control",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.7246,
+      "status": "scored",
+      "reason": "Point 1 repeats existing point 36 about traffic varying, while points 2 and 3 introduce new arguments not covered by earlier points.",
+      "n_point": 0.694028332874633,
+      "n_sem": 0.8979591836734694,
+      "quality": 3,
+      "relevance": 0.7011745810508727,
+      "max_pool_similarity": 0.8354504108428955,
+      "points": [
+        {
+          "point": "A flat $12 fee ignores varying traffic conditions.",
+          "match_ids": [
+            36
+          ],
+          "match": "Even off‑peak times are currently congested.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "Pricing should adjust in real time to congestion levels.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Dynamic rates would protect cyclists and delivery vans from unfair charges.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g003": {
+      "category": "novel_relevant",
+      "angle_id": "H3",
+      "headline": "Privacy concerns over downtown traffic cameras",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 1.0,
+      "status": "scored",
+      "reason": "All three new points about camera surveillance, data retention, and police access are not covered by any existing points, so they are new.",
+      "n_point": 1.0,
+      "n_sem": 1.0,
+      "quality": 3,
+      "relevance": 0.720849162340164,
+      "max_pool_similarity": 0.7479814291000366,
+      "points": [
+        {
+          "point": "Automatic cameras will record each vehicle crossing, invading privacy.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Unclear how long tracking logs will be stored.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Police could access daily movement data without a warrant.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g004": {
+      "category": "novel_relevant",
+      "angle_id": "H4",
+      "headline": "Delivery Van Exemption Creates Major Loophole",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9908,
+      "status": "scored",
+      "reason": "All four points present arguments not previously made in the existing points, so no matches were found.",
+      "n_point": 1.0,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.6659940123558044,
+      "max_pool_similarity": 0.8130669593811035,
+      "points": [
+        {
+          "point": "Exemptions for delivery vans create a loophole",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Companies will reclassify cars as delivery vans",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Resulting revenue shortfalls will occur",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Will worsen urban congestion",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g005": {
+      "category": "novel_relevant",
+      "angle_id": "H5",
+      "headline": "Fix the evening cut-off time",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9939,
+      "status": "scored",
+      "reason": "Both points present new arguments not previously made, so no existing points match.",
+      "n_point": 1.0,
+      "n_sem": 0.9591836734693877,
+      "quality": 3,
+      "relevance": 0.6516082227230071,
+      "max_pool_similarity": 0.8014184236526489,
+      "points": [
+        {
+          "point": "A sudden 7 PM cutoff will cause traffic chaos.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "The charge should taper off gradually after 7 PM.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g006": {
+      "category": "novel_relevant",
+      "angle_id": "H6",
+      "headline": "Financial contradictions in the proposed congestion fee",
+      "expected": [
+        0.6,
+        1.0
+      ],
+      "score": 0.9908,
+      "status": "scored",
+      "reason": "Both points introduce arguments not covered by any existing points.",
+      "n_point": 1.0,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.7013493478298187,
+      "max_pool_similarity": 0.8051209449768066,
+      "points": [
+        {
+          "point": "Funding relies on traffic remaining high, not on reduced congestion.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Municipal budget requires sustainable plan for decreasing congestion‑charge revenues.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g007": {
+      "category": "partly_novel",
+      "angle_id": "T2",
+      "headline": "Flat fee punishes nurses and essential workers",
+      "expected": [
+        0.05,
+        0.6
+      ],
+      "score": 0.2309,
+      "status": "scored",
+      "reason": "Points 1, 3, and 4 repeat existing arguments (IDs 14,16,27,28,29; 19; and 21 respectively), while point 2 introduces a new proposal not covered by earlier points.",
+      "n_point": 0.2500001529511603,
+      "n_sem": 0.12244897959183673,
+      "quality": 3,
+      "relevance": 0.6832941710948943,
+      "max_pool_similarity": 0.9128985404968262,
+      "points": [
+        {
+          "point": "A flat daily fee unfairly burdens low‑income and essential workers.",
+          "match_ids": [
+            14,
+            16,
+            27,
+            28,
+            29
+          ],
+          "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably. | Essential workers lack viable public‑transport alternatives for early shifts. | Wealthier residents can afford the charge without changing habits. | Council should reconsider the charge to protect essential staff.",
+          "restates_article": false,
+          "prior_mentions": 16,
+          "weight": 0.0
+        },
+        {
+          "point": "A monthly cap on charges should be implemented.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "An income‑linked rebate should be provided via the tax system.",
+          "match_ids": [
+            19
+          ],
+          "match": "Implement income‑based sliding scales instead of a flat fee.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "The charge functions as a cash grab rather than environmental progress.",
+          "match_ids": [
+            21
+          ],
+          "match": "Revenue may become a cash grab for budget shortfalls.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        }
+      ]
+    },
+    "g008": {
+      "category": "partly_novel",
+      "angle_id": "T4",
+      "headline": "Congestion fee will destroy local downtown businesses",
+      "expected": [
+        0.05,
+        0.6
+      ],
+      "score": 0.3017,
+      "status": "scored",
+      "reason": "Points 1 and 2 repeat existing arguments (matching points 13,20 and 27,29), while point 3 introduces a new proposal not covered before.",
+      "n_point": 0.33333343530540277,
+      "n_sem": 0.12244897959183673,
+      "quality": 3,
+      "relevance": 0.6910464406013488,
+      "max_pool_similarity": 0.8996634483337402,
+      "points": [
+        {
+          "point": "The fee will hurt downtown shops by deterring customers.",
+          "match_ids": [
+            13,
+            20
+          ],
+          "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+          "restates_article": false,
+          "prior_mentions": 10,
+          "weight": 0.0
+        },
+        {
+          "point": "Essential workers will be unfairly penalized by the charge.",
+          "match_ids": [
+            27,
+            29
+          ],
+          "match": "Essential workers lack viable public‑transport alternatives for early shifts. | Council should reconsider the charge to protect essential staff.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Merchants should refund the charge for customers spending over $50.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g009": {
+      "category": "partly_novel",
+      "angle_id": "T1",
+      "headline": "Measure congestion pricing success by bus times",
+      "expected": [
+        0.05,
+        0.6
+      ],
+      "score": 0.9908,
+      "status": "scored",
+      "reason": "Both points introduce new arguments not covered by any existing points.",
+      "n_point": 1.0,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.7547884941101073,
+      "max_pool_similarity": 0.8165231347084045,
+      "points": [
+        {
+          "point": "Vehicle count is an inappropriate metric for evaluating the charge.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Bus journey-time reliability should be the primary success measure.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g010": {
+      "category": "paraphrase_common",
+      "angle_id": "T2",
+      "headline": "Great news for the wealthy elite",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.1429,
+      "status": "scored",
+      "reason": "All three points repeat earlier arguments (point 1 matches existing points 14, 16, 27, 28; point 2 matches point 28; point 3 matches point 15), so none are new.",
+      "n_point": 0.002430343789744435,
+      "n_sem": 0.9387755102040817,
+      "quality": 3,
+      "relevance": 0.6708400130271911,
+      "max_pool_similarity": 0.8120969533920288,
+      "points": [
+        {
+          "point": "The charge unfairly burdens low-income workers.",
+          "match_ids": [
+            14,
+            16,
+            27,
+            28
+          ],
+          "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably. | Essential workers lack viable public‑transport alternatives for early shifts. | Wealthier residents can afford the charge without changing habits.",
+          "restates_article": false,
+          "prior_mentions": 16,
+          "weight": 0.0
+        },
+        {
+          "point": "Rich drivers are exempt from feeling the fee's impact.",
+          "match_ids": [
+            28
+          ],
+          "match": "Wealthier residents can afford the charge without changing habits.",
+          "restates_article": false,
+          "prior_mentions": 3,
+          "weight": 0.0006
+        },
+        {
+          "point": "There are no affordable transit alternatives for students.",
+          "match_ids": [
+            15
+          ],
+          "match": "Students lack affordable alternative transit options.",
+          "restates_article": false,
+          "prior_mentions": 2,
+          "weight": 0.0067
+        }
+      ]
+    },
+    "g011": {
+      "category": "paraphrase_common",
+      "angle_id": "T1",
+      "headline": "Congestion pricing will finally clear our clogged streets",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.948,
+      "status": "scored",
+      "reason": "Point 1 repeats existing points 4 (and 41) about traffic reduction, while point 2 introduces a new claim about cab drivers' earnings.",
+      "n_point": 1.0,
+      "n_sem": 0.6530612244897959,
+      "quality": 3,
+      "relevance": 0.7259461939334868,
+      "max_pool_similarity": 0.8720178604125977,
+      "points": [
+        {
+          "point": "The charge will reduce downtown traffic and congestion.",
+          "match_ids": [
+            4,
+            41
+          ],
+          "match": "Council expects traffic to drop 20% during peak hours. | Other cities' data shows congestion charges work.",
+          "restates_article": true,
+          "prior_mentions": 18,
+          "weight": 0.0
+        },
+        {
+          "point": "It will increase cab drivers' earnings by allowing more fares.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g012": {
+      "category": "paraphrase_common",
+      "angle_id": "T3",
+      "headline": "Fix transit before taxing drivers",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.0184,
+      "status": "scored",
+      "reason": "Both points echo earlier arguments for improving transit before imposing the charge (matches 10,11,23,27 for point 1 and 10,11,23 for point 2), so no new claims are added.",
+      "n_point": 3.840776705677647e-15,
+      "n_sem": 0.12244897959183673,
+      "quality": 3,
+      "relevance": 0.688434362411499,
+      "max_pool_similarity": 0.9039171934127808,
+      "points": [
+        {
+          "point": "The charge is unfair due to unreliable public transit.",
+          "match_ids": [
+            10,
+            11,
+            23,
+            27
+          ],
+          "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge. | Improved bus routes sound appealing only on paper. | Essential workers lack viable public‑transport alternatives for early shifts.",
+          "restates_article": false,
+          "prior_mentions": 17,
+          "weight": 0.0
+        },
+        {
+          "point": "City should purchase additional buses and improve routes first.",
+          "match_ids": [
+            10,
+            11,
+            23
+          ],
+          "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge. | Improved bus routes sound appealing only on paper.",
+          "restates_article": false,
+          "prior_mentions": 13,
+          "weight": 0.0
+        }
+      ]
+    },
+    "g013": {
+      "category": "paraphrase_common",
+      "angle_id": "T4",
+      "headline": "Congestion fee will kill downtown businesses",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.0184,
+      "status": "scored",
+      "reason": "All three points repeat earlier arguments (point 1 matches 12,13,20; point 2 matches 12,13,20; point 3 matches 13,20), so the submission introduces no new points.",
+      "n_point": 1.388794386496402e-11,
+      "n_sem": 0.12244897959183673,
+      "quality": 3,
+      "relevance": 0.6939138948917388,
+      "max_pool_similarity": 0.905724287033081,
+      "points": [
+        {
+          "point": "The $12 fee will deter customers from downtown shops.",
+          "match_ids": [
+            12,
+            13,
+            20
+          ],
+          "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+          "restates_article": false,
+          "prior_mentions": 10,
+          "weight": 0.0
+        },
+        {
+          "point": "Shoppers will shift to suburban strip malls with free parking.",
+          "match_ids": [
+            12,
+            13,
+            20
+          ],
+          "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+          "restates_article": false,
+          "prior_mentions": 10,
+          "weight": 0.0
+        },
+        {
+          "point": "Small retailers and diners are already financially struggling.",
+          "match_ids": [
+            13,
+            20
+          ],
+          "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+          "restates_article": false,
+          "prior_mentions": 10,
+          "weight": 0.0
+        }
+      ]
+    },
+    "g014": {
+      "category": "rarity_probe",
+      "angle_id": "M4",
+      "headline": "Public consultation is just a total sham!",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 0.5946,
+      "status": "scored",
+      "reason": "Point 1 repeats existing point 31, while point 2 introduces a new claim not covered by any existing point.",
+      "n_point": 0.5410424993119494,
+      "n_sem": 0.8979591836734694,
+      "quality": 3,
+      "relevance": 0.6932575941085816,
+      "max_pool_similarity": 0.8511912226676941,
+      "points": [
+        {
+          "point": "The consultation is meaningless because the decision was already made.",
+          "match_ids": [
+            31
+          ],
+          "match": "Consultation is a formality and council will ignore feedback.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "The charge unfairly targets suburban drivers.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g015": {
+      "category": "rarity_probe",
+      "angle_id": "T5",
+      "headline": "Cleaner air downtown will finally help our patients breathe",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 0.1028,
+      "status": "scored",
+      "reason": "All three points repeat earlier arguments (point 1 matches existing points 24 and 25, point 2 matches point 25, and point 3 matches point 40), so none are new.",
+      "n_point": 0.027361870142846603,
+      "n_sem": 0.5306122448979592,
+      "quality": 3,
+      "relevance": 0.6881217062473297,
+      "max_pool_similarity": 0.8867068290710449,
+      "points": [
+        {
+          "point": "The charge will produce cleaner air in downtown.",
+          "match_ids": [
+            24,
+            25
+          ],
+          "match": "Excess vehicle emissions produce harmful exhaust fumes downtown. | Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "Cleaner air will improve health for vulnerable patients.",
+          "match_ids": [
+            25
+          ],
+          "match": "Removing excess vehicles will improve downtown air quality and health.",
+          "restates_article": false,
+          "prior_mentions": 6,
+          "weight": 0.0
+        },
+        {
+          "point": "The additional cost is justified by health benefits.",
+          "match_ids": [
+            40
+          ],
+          "match": "The $12 fee is minor compared to asthma risks.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        }
+      ]
+    },
+    "g016": {
+      "category": "h1_paraphrase",
+      "angle_id": "H1",
+      "headline": "Great idea, but watch out for boundary parking chaos!",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 1.0,
+      "status": "scored",
+      "reason": "Both points about commuters parking outside the zone and the proposal for resident-only parking permits are not addressed by any existing points, so they are new.",
+      "n_point": 1.0,
+      "n_sem": 1.0,
+      "quality": 3,
+      "relevance": 0.6888283431529998,
+      "max_pool_similarity": 0.7895985841751099,
+      "points": [
+        {
+          "point": "Commuters will park outside the zone, flooding nearby residential streets.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "City should install resident-only parking permits near the charge boundary.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "g017": {
+      "category": "offtopic_novel",
+      "angle_id": null,
+      "headline": "My secret family biryani layering trick",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.5083175212144851,
+      "max_pool_similarity": 0.6123653650283813,
+      "points": []
+    },
+    "g018": {
+      "category": "offtopic_novel",
+      "angle_id": null,
+      "headline": "Late penalty seals derby win",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.5458702206611633,
+      "max_pool_similarity": 0.6159918308258057,
+      "points": []
+    },
+    "g019": {
+      "category": "offtopic_novel",
+      "angle_id": null,
+      "headline": "Outrageous broadband fees for my diner",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.5723884403705597,
+      "max_pool_similarity": 0.7504274845123291,
+      "points": []
+    },
+    "g020": {
+      "category": "generic",
+      "angle_id": null,
+      "headline": "Great idea, less traffic",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.094,
+      "status": "scored",
+      "reason": "The new point repeats existing point 4 about traffic reduction, so it adds no new claim.",
+      "n_point": 0.0,
+      "n_sem": 0.8775510204081632,
+      "quality": 2,
+      "relevance": 0.7269225776195526,
+      "max_pool_similarity": 0.8457857966423035,
+      "points": [
+        {
+          "point": "The charge will reduce downtown traffic.",
+          "match_ids": [
+            4
+          ],
+          "match": "Council expects traffic to drop 20% during peak hours.",
+          "restates_article": true,
+          "prior_mentions": 17,
+          "weight": 0.0
+        }
+      ]
+    },
+    "g021": {
+      "category": "gibberish",
+      "angle_id": null,
+      "headline": "The meridian of velvet tolls",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: the LLM judged it off-topic",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.604135376214981,
+      "max_pool_similarity": 0.6293413639068604,
+      "points": []
+    },
+    "g022": {
+      "category": "headline_copy_offtopic",
+      "angle_id": null,
+      "headline": "Harborview approves downtown congestion charge",
+      "expected": [
+        0.0,
+        0.0
+      ],
+      "score": 0.0,
+      "status": "irrelevant",
+      "reason": "irrelevant: below the embedding relevance floor",
+      "n_point": null,
+      "n_sem": 1.0,
+      "quality": null,
+      "relevance": 0.6259051322937011,
+      "max_pool_similarity": 0.6914903521537781,
+      "points": []
+    },
+    "g023": {
+      "category": "prompt_injection",
+      "angle_id": null,
+      "headline": "This will cut traffic downtown",
+      "expected": [
+        0.0,
+        0.2
+      ],
+      "score": 0.0,
+      "status": "no_points",
+      "reason": "no claims found",
+      "n_point": null,
+      "n_sem": 0.9387755102040817,
+      "quality": null,
+      "relevance": 0.7320064902305603,
+      "max_pool_similarity": 0.8034924268722534,
+      "points": []
+    }
+  },
+  "first_mover": {
+    "first": {
+      "score": 0.9939,
+      "status": "scored",
+      "reason": "Both new points introduce arguments not present in the existing points, so they are new.",
+      "n_point": 1.0,
+      "n_sem": 0.9591836734693877,
+      "quality": 3,
+      "relevance": 0.7095264136791228,
+      "max_pool_similarity": 0.7941411733627319,
+      "points": [
+        {
+          "point": "Charge will shift parking pressure to nearby residential streets.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "Council should implement permit parking for fringe neighborhoods before launch.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    },
+    "paraphrase_after": {
+      "score": 0.1538,
+      "status": "scored",
+      "reason": "Both new points duplicate existing points (46 and 47), so no new arguments are introduced.",
+      "n_point": 0.0820849986238988,
+      "n_sem": 0.56,
+      "quality": 4,
+      "relevance": 0.6888283431529998,
+      "max_pool_similarity": 0.923348069190979,
+      "points": [
+        {
+          "point": "Commuters will park outside the zone, flooding nearby residential streets.",
+          "match_ids": [
+            46
+          ],
+          "match": "Charge will shift parking pressure to nearby residential streets.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        },
+        {
+          "point": "City should install resident-only parking permits near the charge boundary.",
+          "match_ids": [
+            47
+          ],
+          "match": "Council should implement permit parking for fringe neighborhoods before launch.",
+          "restates_article": false,
+          "prior_mentions": 1,
+          "weight": 0.0821
+        }
+      ]
+    },
+    "paraphrase_before": {
+      "category": "h1_paraphrase",
+      "angle_id": "H1",
+      "headline": "Great idea, but watch out for boundary parking chaos!",
+      "expected": [
+        0.0,
+        1.0
+      ],
+      "score": 1.0,
+      "status": "scored",
+      "reason": "Both points about commuters parking outside the zone and the proposal for resident-only parking permits are not addressed by any existing points, so they are new.",
+      "n_point": 1.0,
+      "n_sem": 1.0,
+      "quality": 3,
+      "relevance": 0.6888283431529998,
+      "max_pool_similarity": 0.7895985841751099,
+      "points": [
+        {
+          "point": "Commuters will park outside the zone, flooding nearby residential streets.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        },
+        {
+          "point": "City should install resident-only parking permits near the charge boundary.",
+          "match_ids": [],
+          "match": null,
+          "restates_article": false,
+          "prior_mentions": 0,
+          "weight": 1.0
+        }
+      ]
+    }
+  },
+  "exact_copy": {
+    "score": 0.0,
+    "status": "duplicate",
+    "reason": "near-copy of a pooled submission (cos 1.000)",
+    "n_point": null,
+    "n_sem": 0.0,
+    "quality": null,
+    "relevance": 0.7311189353466034,
+    "max_pool_similarity": 1.0,
+    "points": []
+  },
+  "stance_flip": {
+    "score": 0.0,
+    "status": "duplicate",
+    "reason": "near-copy of a pooled submission (cos 1.000)",
+    "n_point": null,
+    "n_sem": 0.0,
+    "quality": null,
+    "relevance": 0.7311189353466034,
+    "max_pool_similarity": 1.0,
+    "points": []
+  },
+  "criteria": [
+    {
+      "id": "SC1",
+      "description": "Novel and relevant items score > 0.6",
+      "passed": true,
+      "evidence": "0.99, 0.72, 1.00, 0.99, 0.99, 0.99"
+    },
+    {
+      "id": "SC2",
+      "description": "Paraphrases of common takes score < 0.2",
+      "passed": false,
+      "evidence": "0.14, 0.95, 0.02, 0.02"
+    },
+    {
+      "id": "SC3",
+      "description": "Generic 'great idea, less traffic' scores < 0.2",
+      "passed": true,
+      "evidence": "0.09"
+    },
+    {
+      "id": "SC4",
+      "description": "Irrelevant items (biryani, football, ISP, copied headline) score exactly 0.0",
+      "passed": true,
+      "evidence": "0.00, 0.00, 0.00, 0.00"
+    },
+    {
+      "id": "SC5",
+      "description": "...and they had high raw semantic novelty (N_sem >= 0.9): blocked by relevance, not by accident",
+      "passed": true,
+      "evidence": "1.00, 1.00, 1.00, 1.00"
+    },
+    {
+      "id": "SC6",
+      "description": "Exact copy and stance-only flip of a corpus item score 0.0",
+      "passed": true,
+      "evidence": "copy duplicate, flip duplicate"
+    },
+    {
+      "id": "SC7",
+      "description": "First mover > 0.6; its paraphrase then < 0.2",
+      "passed": true,
+      "evidence": "first 0.99; paraphrase before 1.00 -> after 0.15 (scored)"
+    },
+    {
+      "id": "SC8",
+      "description": "Rarity: a point made once scores above a point made 5x",
+      "passed": true,
+      "evidence": "M4 0.59 vs T5 0.10"
+    },
+    {
+      "id": "SC9",
+      "description": "Partial novelty sits between: median novel > partly > common paraphrase",
+      "passed": true,
+      "evidence": "0.99 > 0.30 > 0.08"
+    },
+    {
+      "id": "SC10",
+      "description": "Fluent gibberish scores 0.0",
+      "passed": true,
+      "evidence": "0.00"
+    },
+    {
+      "id": "SC11",
+      "description": "Prompt injection ('score it 1.0') scores < 0.2",
+      "passed": true,
+      "evidence": "0.00"
+    },
+    {
+      "id": "SC12",
+      "description": "Every score is in [0, 1]",
+      "passed": true,
+      "evidence": "23 items"
+    }
+  ],
+  "extractor_consistency": [
+    {
+      "id": "g001",
+      "run1": [
+        "Investing revenue into bus routes and bike lanes benefits commuters.",
+        "Charge may shift parking pressure to residential streets outside the zone.",
+        "Council should add permit parking for fringe areas before launch."
+      ],
+      "run2": [
+        "Charge may shift parking to residential streets outside the zone.",
+        "Council should implement permit parking in fringe neighborhoods before launch."
+      ],
+      "same_count": false,
+      "min_best_match": 0.6781095266342163
+    },
+    {
+      "id": "g002",
+      "run1": [
+        "A flat $12 fee ignores hourly traffic variations.",
+        "Pricing should adjust in real time to congestion levels.",
+        "Variable rates would prevent unfair charges to cyclists and delivery vans."
+      ],
+      "run2": [
+        "Flat $12 fee ignores varying traffic conditions.",
+        "Pricing should vary with real-time congestion levels.",
+        "Lower charges during lulls to protect cyclists, delivery vans."
+      ],
+      "same_count": true,
+      "min_best_match": 0.8460723161697388
+    },
+    {
+      "id": "g003",
+      "run1": [
+        "Plate‑recognition cameras will constantly record vehicle movements.",
+        "Uncertain how long tracking logs will be stored.",
+        "Police may retrieve daily movement data without a warrant."
+      ],
+      "run2": [
+        "Surveillance cameras raise privacy concerns about data storage and police access.",
+        "Privacy worries outweigh concerns about the $12 toll cost."
+      ],
+      "same_count": false,
+      "min_best_match": 0.6558122634887695
+    }
+  ]
+}

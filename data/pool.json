@@ -1,0 +1,1398 @@
+{
+  "points": [
+    {
+      "id": 0,
+      "text": "City Council approved a downtown congestion charge 7-2.",
+      "count": 10,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 1,
+      "text": "Charge applies weekdays 7am–7pm for private cars.",
+      "count": 10,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 2,
+      "text": "Drivers pay $12 daily, with resident discounts.",
+      "count": 10,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 3,
+      "text": "Taxis, small delivery vans, and disabled badge holders are exempt.",
+      "count": 11,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 4,
+      "text": "Council expects traffic to drop 20% during peak hours.",
+      "count": 17,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 5,
+      "text": "Expected annual revenue is $45 million.",
+      "count": 10,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 6,
+      "text": "Funds will support more frequent bus routes.",
+      "count": 10,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 7,
+      "text": "Funds will support protected bike lanes.",
+      "count": 12,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 8,
+      "text": "Scheme begins next April after six-month consultation.",
+      "count": 10,
+      "source": "article",
+      "prior": 10
+    },
+    {
+      "id": 9,
+      "text": "City needs smarter mobility solutions and safer infrastructure.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 10,
+      "text": "Transit improvements should precede financial penalties for drivers.",
+      "count": 9,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 11,
+      "text": "Fund and build frequent buses and extensive rail before charge.",
+      "count": 9,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 12,
+      "text": "The $12 charge will push shoppers to outer‑ring malls.",
+      "count": 8,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 13,
+      "text": "Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+      "count": 10,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 14,
+      "text": "A flat $12 daily fee is regressive for low-income drivers.",
+      "count": 15,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 15,
+      "text": "Students lack affordable alternative transit options.",
+      "count": 2,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 16,
+      "text": "The charge effectively taxes poverty instead of reducing congestion equitably.",
+      "count": 13,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 17,
+      "text": "Protected bike lanes will make streets safer for cyclists.",
+      "count": 2,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 18,
+      "text": "Delivery fleets will need route optimization and schedule adjustments.",
+      "count": 2,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 19,
+      "text": "Implement income‑based sliding scales instead of a flat fee.",
+      "count": 6,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 20,
+      "text": "The charge could force permanent restaurant closures.",
+      "count": 7,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 21,
+      "text": "Revenue may become a cash grab for budget shortfalls.",
+      "count": 6,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 22,
+      "text": "No guarantee funds will be spent directly on public transit.",
+      "count": 5,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 23,
+      "text": "Improved bus routes sound appealing only on paper.",
+      "count": 5,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 24,
+      "text": "Excess vehicle emissions produce harmful exhaust fumes downtown.",
+      "count": 3,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 25,
+      "text": "Removing excess vehicles will improve downtown air quality and health.",
+      "count": 6,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 26,
+      "text": "Resident discounts unfairly discriminate against non-resident commuters.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 27,
+      "text": "Essential workers lack viable public‑transport alternatives for early shifts.",
+      "count": 6,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 28,
+      "text": "Wealthier residents can afford the charge without changing habits.",
+      "count": 3,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 29,
+      "text": "Council should reconsider the charge to protect essential staff.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 30,
+      "text": "Charge should apply weekends as well.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 31,
+      "text": "Consultation is a formality and council will ignore feedback.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 32,
+      "text": "Exemption criteria require careful monitoring to protect local commerce.",
+      "count": 2,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 33,
+      "text": "The congestion charge mechanism is mathematically sound.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 34,
+      "text": "The scheme is overdue and needed to protect residents.",
+      "count": 2,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 35,
+      "text": "Financial analysis of the charge's broader implications is needed.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 36,
+      "text": "Even off‑peak times are currently congested.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 37,
+      "text": "Seniors should receive exemptions for medical trips.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 38,
+      "text": "Exempting delivery vans does not prevent loss of customers.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 39,
+      "text": "Council is ignoring basic economic impacts on local businesses.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 40,
+      "text": "The $12 fee is minor compared to asthma risks.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 41,
+      "text": "Other cities' data shows congestion charges work.",
+      "count": 2,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 42,
+      "text": "The city should implement the charge immediately.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 43,
+      "text": "It will keep emergency lanes clear for ambulances.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 44,
+      "text": "The charge will not effectively reduce congestion.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    },
+    {
+      "id": 45,
+      "text": "The $12 fee is unrealistic to eliminate traffic instantly.",
+      "count": 1,
+      "source": "submission",
+      "prior": 0
+    }
+  ],
+  "entries": [
+    {
+      "id": "c025",
+      "headline": "Build better transit first",
+      "body": "Riding my bicycle every day shows me just how badly our city needs smarter mobility solutions and safer infrastructure. I completely support reducing automobile dependency downtown, but punishing drivers before offering a world-class public transit alternative puts the cart entirely before the horse. Let us fund, build, and deploy exceptionally frequent bus routes and extensive rail options first, proving that the system works seamlessly, before introducing any financial disincentives for motorists.",
+      "stance": "support_with_changes",
+      "points": [
+        "City needs smarter mobility solutions and safer infrastructure.",
+        "Transit improvements should precede financial penalties for drivers.",
+        "Fund and build frequent buses and extensive rail before charge."
+      ],
+      "point_ids": [
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ]
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "c036",
+      "headline": "The Economic Fallout for Small Businesses",
+      "body": "Examining consumer behavior models reveals a glaring flaw in this proposal. When discretionary visitors face a twelve-dollar barrier just to access the commercial district, their patronage inevitably shifts toward outer-ring shopping centers. Downtown restaurants and specialty retailers operate on tight margins that require high-volume foot traffic. By actively discouraging motorists from entering the core, the municipality is manufacturing an avoidable economic slump that will devastate local merchants who depend on regional patronage to survive each quarter.",
+      "stance": "oppose",
+      "points": [
+        "The $12 charge will push shoppers to outer‑ring malls.",
+        "Reduced downtown foot traffic will harm restaurants and specialty retailers."
+      ],
+      "point_ids": [
+        [
+          12
+        ],
+        [
+          13
+        ]
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "c015",
+      "headline": "Regressive policy hurts students",
+      "body": "Analyzing the economic distribution of this toll reveals a severely regressive impact on campus populations. A flat $12 a day is unfair to low-income drivers who have no alternative to driving. Students balancing part-time jobs and classes across the city lack flexible transit options and cannot absorb these mounting daily expenses. By imposing identical fees regardless of personal financial capacity, the council effectively taxes poverty rather than reducing congestion equitably across all socioeconomic strata.",
+      "stance": "oppose",
+      "points": [
+        "A flat $12 daily fee is regressive for low-income drivers.",
+        "Students lack affordable alternative transit options.",
+        "The charge effectively taxes poverty instead of reducing congestion equitably."
+      ],
+      "point_ids": [
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ]
+      ],
+      "score": 0.85
+    },
+    {
+      "id": "c032",
+      "headline": "This Toll Will Crush Retail",
+      "body": "Drivers will stop coming downtown entirely. Shops and restaurants depend on accessible patrons, and this tax will keep everyone away from local businesses.",
+      "stance": "oppose",
+      "points": [
+        "The tax will keep everyone away from local businesses."
+      ],
+      "point_ids": [
+        [
+          12,
+          13
+        ]
+      ],
+      "score": 0.0498
+    },
+    {
+      "id": "c011",
+      "headline": "Flat fee harms working class",
+      "body": "As a restaurant manager who tracks thin margins daily, I see this policy clearly. A flat $12 a day is unfair to low-income drivers who have no alternative to driving. It penalizes hourly workers while leaving wealthier residents largely unaffected by the daily toll.",
+      "stance": "oppose",
+      "points": [
+        "Flat $12 daily fee unfair to low-income and hourly workers.",
+        "Wealthier residents are less affected by the charge."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "score": 0.1448
+    },
+    {
+      "id": "c049",
+      "headline": "Congestion pricing brings long overdue cycling safety improvements",
+      "body": "Even though managing deliveries downtown under the new fee structure will require careful route optimization and schedule adjustments for our fleet, I firmly support this initiative primarily because of the infrastructure upgrades. As a cyclist who commutes daily through the core commercial district, the installation of protected bike lanes represents the absolute best part of this plan. These physical barriers will definitively transform our treacherous streets and make everyday riding significantly safer for everyone traveling on two wheels.",
+      "stance": "support",
+      "points": [
+        "Infrastructure upgrades, like protected bike lanes, justify the congestion charge.",
+        "Protected bike lanes will make streets safer for cyclists.",
+        "Delivery fleets will need route optimization and schedule adjustments."
+      ],
+      "point_ids": [
+        [
+          7
+        ],
+        [
+          17
+        ],
+        [
+          18
+        ]
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "c012",
+      "headline": "Fix the pricing structure",
+      "body": "I bike every day, but a flat $12 a day is unfair to low-income drivers who have no alternative to driving. Income-based sliding scales must replace this regressive tax.",
+      "stance": "support_with_changes",
+      "points": [
+        "Flat $12 daily charge is unfair to low‑income drivers.",
+        "Implement income‑based sliding scales instead of a flat fee."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ],
+        [
+          19
+        ]
+      ],
+      "score": 0.4279
+    },
+    {
+      "id": "c017",
+      "headline": "Flawed economics on tolls",
+      "body": "From a financial perspective, charging every motorist the exact same amount creates a massive inequality gap. A flat $12 a day is unfair to low-income drivers who have no alternative to driving. Wealthy motorists will barely notice the deduction from their accounts, whereas lower-income workers will see a significant portion of their daily wages evaporate simply for commuting to work. A truly progressive city government should implement income-tiered pricing rather than punishing those who simply cannot afford modern electric vehicles or downtown housing.",
+      "stance": "oppose",
+      "points": [
+        "Flat $12 fee is unfair to low‑income drivers.",
+        "City should adopt income‑tiered pricing for congestion charges."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ],
+        [
+          19
+        ]
+      ],
+      "score": 0.0351
+    },
+    {
+      "id": "c029",
+      "headline": "Congestion Fee Threatens Downtown Eateries",
+      "body": "As a restaurant manager downtown, I analyze our margins closely. This twelve-dollar daily penalty is entirely counterproductive. Patrons simply will not absorb these extra costs just to dine out. Instead, they will choose suburban alternatives where parking is free and accessible. Our local dining scene relies on steady foot traffic, which this toll will severely diminish, ultimately forcing permanent closures across the hospitality sector.",
+      "stance": "oppose",
+      "points": [
+        "The $12 daily charge is counterproductive for downtown restaurants.",
+        "Patrons will avoid downtown dining due to extra cost.",
+        "Reduced foot traffic will harm local eateries.",
+        "The charge could force permanent restaurant closures."
+      ],
+      "point_ids": [
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13
+        ],
+        [
+          20
+        ]
+      ],
+      "score": 0.2543
+    },
+    {
+      "id": "c030",
+      "headline": "A Disaster for City Shops",
+      "body": "This fee is a terrible mistake! Downtown boutiques and cafes are going to suffer immensely because everyday shoppers will completely avoid the core to escape paying daily penalties.",
+      "stance": "oppose",
+      "points": [
+        "Shoppers will avoid downtown, harming boutiques and cafes."
+      ],
+      "point_ids": [
+        [
+          12,
+          13,
+          20
+        ]
+      ],
+      "score": 0.1005
+    },
+    {
+      "id": "c043",
+      "headline": "Skeptical about transit funding promises",
+      "body": "I currently ride the bus to my office downtown every day, so improved routes sound appealing on paper. However, looking at past municipal projects, I remain deeply skeptical about where this revenue will actually end up. The projected forty five million dollars in annual income feels less like an investment in mobility and more like a standard cash grab to cover budget shortfalls. If the council cannot guarantee every cent goes directly to public transit without administrative bloat, then this entire congestion fee loses all credibility.",
+      "stance": "undecided",
+      "points": [
+        "Revenue may become a cash grab for budget shortfalls.",
+        "No guarantee funds will be spent directly on public transit.",
+        "Improved bus routes sound appealing only on paper."
+      ],
+      "point_ids": [
+        [
+          21
+        ],
+        [
+          22
+        ],
+        [
+          23
+        ]
+      ],
+      "score": 0.985
+    },
+    {
+      "id": "c039",
+      "headline": "Breathe easier downtown",
+      "body": "Honestly it is about time. Taking the bus is great, but waiting in exhaust fumes sucks. Getting rid of excess vehicles means cleaner air and better public health downtown.",
+      "stance": "support",
+      "points": [
+        "Excess vehicle emissions produce harmful exhaust fumes downtown.",
+        "Removing excess vehicles will improve downtown air quality and health."
+      ],
+      "point_ids": [
+        [
+          24
+        ],
+        [
+          25
+        ]
+      ],
+      "score": 0.9864
+    },
+    {
+      "id": "c031",
+      "headline": "Local Businesses Cannot Survive This Fee",
+      "body": "Over twenty years living here, I have watched countless downtown shops struggle through economic shifts. Last weekend, I spoke with three different cafe owners who are terrified about this upcoming toll. Families and casual visitors already deal with high prices; adding a daily tax to visit our core will drive them straight to suburban strip malls. When customers decide the journey is too expensive, our favorite independent restaurants and retail stores will inevitably vanish from Main Street for good.",
+      "stance": "oppose",
+      "points": [
+        "The fee will push customers to suburban strip malls.",
+        "Independent restaurants and retailers will disappear from Main Street.",
+        "A daily tax makes downtown visits too expensive for families."
+      ],
+      "point_ids": [
+        [
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          12,
+          14,
+          16
+        ]
+      ],
+      "score": 0.0
+    },
+    {
+      "id": "c009",
+      "headline": "Finally clearing the gridlock",
+      "body": "It is about time our leaders used basic economics to reduce downtown traffic. Pricing externalities works, and this policy will finally ease our chronic congestion.",
+      "stance": "support",
+      "points": [
+        "Pricing externalities will reduce downtown congestion."
+      ],
+      "point_ids": [
+        [
+          4
+        ]
+      ],
+      "score": 0.0742
+    },
+    {
+      "id": "c001",
+      "headline": "Finally a fix for downtown gridlock",
+      "body": "I rarely drive into the center anymore because it takes forever just to crawl a few blocks, but visiting my grandkids used to be such a headache. Now that the city is stepping up with this toll, I can actually picture the streets clearing out nicely so buses and cars move smoothly again without all that endless idling.",
+      "stance": "support",
+      "points": [
+        "The toll will clear streets and improve traffic flow."
+      ],
+      "point_ids": [
+        [
+          4
+        ]
+      ],
+      "score": 0.0689
+    },
+    {
+      "id": "c047",
+      "headline": "Unfair resident discounts penalize commuters",
+      "body": "As a local business owner, this math fails. Granting downtown residents a steep discount while hitting outside workers with the full fee is completely discriminatory. We all use the same roads.",
+      "stance": "oppose",
+      "points": [
+        "Resident discounts unfairly discriminate against non-resident commuters."
+      ],
+      "point_ids": [
+        [
+          26
+        ]
+      ],
+      "score": 0.6857
+    },
+    {
+      "id": "c020",
+      "headline": "Protecting vulnerable commuters",
+      "body": "Carrying heavy camera gear requires a personal vehicle for my daily assignments throughout the metropolitan core. However, a flat $12 a day is unfair to low-income drivers who have no alternative to driving. Freelancers and gig economy workers operating on tight budgets need tiered pricing structures rather than blunt financial instruments.",
+      "stance": "support_with_changes",
+      "points": [
+        "Flat $12 daily charge is unfair to low‑income drivers.",
+        "Freelancers need tiered pricing instead of a flat charge."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ],
+        [
+          19
+        ]
+      ],
+      "score": 0.106
+    },
+    {
+      "id": "c013",
+      "headline": "Disproportionate burden on essential staff",
+      "body": "Working irregular shifts at the hospital leaves me entirely dependent on my personal vehicle due to unreliable public transit during early morning hours. Consequently, implementing a flat $12 a day is unfair to low-income drivers who have no alternative to driving. Healthcare professionals and other essential workers from outlying neighborhoods will bear the brunt of this financial penalty, while wealthier residents absorb the cost effortlessly without changing their commuting habits. The council must reconsider this regressive toll to protect vulnerable wage earners.",
+      "stance": "oppose",
+      "points": [
+        "The flat $12 charge is unfair to low‑income drivers.",
+        "Essential workers lack viable public‑transport alternatives for early shifts.",
+        "Wealthier residents can afford the charge without changing habits.",
+        "The toll is regressive, penalizing vulnerable wage earners.",
+        "Council should reconsider the charge to protect essential staff."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ],
+        [
+          27
+        ],
+        [
+          28
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          29
+        ]
+      ],
+      "score": 0.5629
+    },
+    {
+      "id": "c022",
+      "headline": "Improve transit before implementing congestion fees",
+      "body": "Data shows pricing out vehicles only works if robust alternatives exist. Build out the train and bus systems first; then we can discuss charging motorists.",
+      "stance": "support_with_changes",
+      "points": [
+        "Congestion pricing works only with robust alternative transportation.",
+        "Expand train and bus services before implementing the charge."
+      ],
+      "point_ids": [
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.1781
+    },
+    {
+      "id": "c044",
+      "headline": "Bakery owners see right through this tax",
+      "body": "Running a small bakery downtown is already tough enough without the city inventing new ways to penalize people. Sure, the politicians promise that forty five million dollars will magically build better bike paths and bus lines, but come on. We all know the council will not really spend that money on transit improvements at all. It is just a massive cash grab that will hurt local businesses while padding city hall pockets. Promises made during these votes never materialize once they start collecting the cash.",
+      "stance": "oppose",
+      "points": [
+        "The charge unfairly penalizes small businesses and serves as a cash grab.",
+        "Council will not allocate revenue to promised transit improvements.",
+        "Promised bike paths and bus routes are unlikely to materialize."
+      ],
+      "point_ids": [
+        [
+          13,
+          20,
+          21
+        ],
+        [
+          21,
+          22,
+          23
+        ],
+        [
+          22,
+          23
+        ]
+      ],
+      "score": 0.1728
+    },
+    {
+      "id": "c048",
+      "headline": "Include weekends too",
+      "body": "As a photographer driving downtown constantly, weekday traffic is awful, but weekends are just as gridlocked with visitors. This fee has to apply seven days a week to actually fix the congestion problem.",
+      "stance": "support_with_changes",
+      "points": [
+        "Charge should apply weekends as well."
+      ],
+      "point_ids": [
+        [
+          30
+        ]
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "c023",
+      "headline": "Prioritize Transit Infrastructure Development Prior to Implementation",
+      "body": "As a local small business owner operating in the downtown core, I appreciate the council's desire to reduce street congestion and improve urban mobility. However, instituting a daily twelve-dollar fee on vehicles feels remarkably premature without first ensuring that our municipal transit grid is fully capable of handling increased passenger volumes. Reliable, extensive, and frequent public transportation options must be established and thoroughly proven throughout the metropolitan area before any financial penalties are levied upon the driving public.",
+      "stance": "undecided",
+      "points": [
+        "Charge should wait until transit is reliable and extensive."
+      ],
+      "point_ids": [
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.0914
+    },
+    {
+      "id": "c050",
+      "headline": "Public consultation is merely a procedural illusion",
+      "body": "The upcoming six-month consultation period appears to be nothing more than a bureaucratic formality rather than a genuine mechanism for public input. Given that the city council has already secured a definitive seven-to-two majority vote in favor of this policy, it seems overwhelmingly probable that municipal leaders have firmly predetermined the outcome and will disregard any substantive community feedback or dissenting perspectives collected during the review phase. While my position on the congestion pricing model itself remains ambivalent, the apparent lack of genuine civic discourse regarding the implementation timeline is concerning.",
+      "stance": "undecided",
+      "points": [
+        "Consultation is a formality and council will ignore feedback."
+      ],
+      "point_ids": [
+        [
+          31
+        ]
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "c008",
+      "headline": "Data supports congestion pricing",
+      "body": "Analyzing urban mobility trends reveals that disincentivizing single occupancy vehicles during peak windows reliably reduces downtown traffic. While exemption criteria need careful monitoring to protect local commerce, the core mechanism itself is mathematically sound for easing street congestion.",
+      "stance": "support_with_changes",
+      "points": [
+        "Disincentivizing single-occupancy vehicles reduces downtown traffic.",
+        "Exemption criteria require careful monitoring to protect local commerce.",
+        "The congestion charge mechanism is mathematically sound."
+      ],
+      "point_ids": [
+        [
+          4
+        ],
+        [
+          32
+        ],
+        [
+          33
+        ]
+      ],
+      "score": 0.9804
+    },
+    {
+      "id": "c040",
+      "headline": "Exhaust is killing us",
+      "body": "Even though I drive for a living and hate extra fees, the smog is unbearable. Fewer vehicles mean cleaner air and better public health downtown, which we desperately need.",
+      "stance": "support",
+      "points": [
+        "Fewer vehicles improve air quality and public health downtown.",
+        "Extra fees burden drivers who rely on cars for work."
+      ],
+      "point_ids": [
+        [
+          25
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "score": 0.1349
+    },
+    {
+      "id": "c019",
+      "headline": "Bus rider opposes flat fee",
+      "body": "Even as a transit user, a flat $12 a day is unfair to low-income drivers who have no alternative to driving.",
+      "stance": "oppose",
+      "points": [
+        "The flat fee is unfair to low‑income drivers lacking alternatives."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ]
+      ],
+      "score": 0.078
+    },
+    {
+      "id": "c034",
+      "headline": "Suburban Shoppers Will Abandon Downtown",
+      "body": "Economic data clearly demonstrates that imposing a twelve-dollar entry tax will deter suburban consumers, directly harming downtown retail establishments and neighborhood eateries that rely on regional visitors.",
+      "stance": "oppose",
+      "points": [
+        "The charge will deter suburban shoppers, harming downtown businesses."
+      ],
+      "point_ids": [
+        [
+          12,
+          13,
+          20
+        ]
+      ],
+      "score": 0.0247
+    },
+    {
+      "id": "c002",
+      "headline": "Relief for commercial routes",
+      "body": "As commercial operators facing daily delays, we appreciate any measure designed to thin out vehicular congestion, though delivery exemptions must remain strictly enforced for the system to work.",
+      "stance": "support_with_changes",
+      "points": [
+        "Congestion charge helps reduce vehicular congestion.",
+        "Delivery exemptions must be strictly enforced."
+      ],
+      "point_ids": [
+        [
+          4,
+          25
+        ],
+        [
+          3,
+          32
+        ]
+      ],
+      "score": 0.0992
+    },
+    {
+      "id": "c041",
+      "headline": "Stop the toxic smog",
+      "body": "It drives me crazy that people value their daily car commute over the actual well-being of residents living near the core. Every single day I walk to campus and cough from the thick cloud of vehicle exhaust lingering over the streets. This congestion pricing plan is long overdue. By dropping the volume of automobiles entering the center during peak hours, we will finally see a massive drop in pollution. Less traffic means cleaner air and better public health downtown. Our generation has to deal with the long-term respiratory consequences of this toxic environment. Please support this scheme.",
+      "stance": "support",
+      "points": [
+        "Congestion pricing will improve air quality and public health.",
+        "The scheme is overdue and needed to protect residents."
+      ],
+      "point_ids": [
+        [
+          25
+        ],
+        [
+          34
+        ]
+      ],
+      "score": 0.5056
+    },
+    {
+      "id": "c018",
+      "headline": "Equitable adjustments required for motorists",
+      "body": "Although taxi operators are fortunately exempt from the newly enacted downtown fees, our passengers and fellow citizens deserve a fairer system. A flat $12 a day is unfair to low-income drivers who have no alternative to driving. Service sector employees traveling from distant suburbs face severe transit deserts, leaving them entirely reliant on personal vehicles. The municipal administration must institute means-tested waivers to ensure that lower-income households are not financially crushed by these broad transportation levies.",
+      "stance": "support_with_changes",
+      "points": [
+        "A flat $12 daily fee is unfair to low‑income drivers.",
+        "Suburban service workers lack viable public‑transport alternatives.",
+        "The city should implement means‑tested waivers for low‑income households."
+      ],
+      "point_ids": [
+        [
+          14
+        ],
+        [
+          27
+        ],
+        [
+          19
+        ]
+      ],
+      "score": 0.0751
+    },
+    {
+      "id": "c037",
+      "headline": "Finally clean air downtown",
+      "body": "I am so sick of choking on exhaust while trying to work outside. Fewer cars rolling through the core finally means cleaner air and better public health downtown for everyone.",
+      "stance": "support",
+      "points": [
+        "Fewer cars will improve downtown air quality.",
+        "Cleaner air will enhance public health downtown."
+      ],
+      "point_ids": [
+        [
+          24,
+          25
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "score": 0.025
+    },
+    {
+      "id": "c016",
+      "headline": "Bakeries depend on hourly staff",
+      "body": "Opening my downtown bakery before dawn means my opening staff cannot rely on the bus system, which simply does not run that early in our neighborhood. A flat $12 a day is unfair to low-income drivers who have no alternative to driving. My hardest-working pastry assistant already struggles with rent and grocery prices, and now she faces a heavy financial penalty just for showing up to her shift on time. We desperately need exemptions or sliding scales for hourly wage earners.",
+      "stance": "support_with_changes",
+      "points": [
+        "The flat $12 charge is unfair to low‑income drivers.",
+        "Early‑shift workers lack bus service, limiting transport alternatives.",
+        "Exemptions or sliding‑scale fees should be offered to hourly earners."
+      ],
+      "point_ids": [
+        [
+          14,
+          16
+        ],
+        [
+          27
+        ],
+        [
+          19
+        ]
+      ],
+      "score": 0.089
+    },
+    {
+      "id": "c045",
+      "headline": "Examining the true destination of toll funds",
+      "body": "Even though taxis are exempt from the new fee, the broader implications of this downtown pricing structure warrant careful financial analysis. Projections indicate forty five million dollars in yearly revenue, supposedly earmarked for sustainable infrastructure and public transit enhancements. Yet experience suggests the council will not really spend that sum on buses and bike lanes as advertised. Skeptics view this policy primarily as a bureaucratic cash grab designed to offset unrelated municipal deficits rather than solve genuine traffic congestion challenges.",
+      "stance": "undecided",
+      "points": [
+        "Financial analysis of the charge's broader implications is needed.",
+        "Council likely will not allocate revenue to promised transit projects.",
+        "Policy is a cash grab to cover unrelated municipal deficits."
+      ],
+      "point_ids": [
+        [
+          35
+        ],
+        [
+          21,
+          22,
+          23
+        ],
+        [
+          21
+        ]
+      ],
+      "score": 0.3997
+    },
+    {
+      "id": "c027",
+      "headline": "Put public transit first",
+      "body": "Economic theory suggests congestion pricing can alter behavior, but only when viable substitutes exist for consumers. Right now, our regional transit options are sparse, slow, and completely inadequate for most commuters. The municipal government should invest heavily in fixing and expanding public transportation infrastructure first, ensuring universal access, before ever introducing punitive fees on drivers.",
+      "stance": "oppose",
+      "points": [
+        "Congestion pricing works only with viable transportation alternatives.",
+        "Current regional transit is sparse, slow, and inadequate.",
+        "Government should invest heavily in fixing and expanding transit first.",
+        "Universal transit access must precede punitive driver fees."
+      ],
+      "point_ids": [
+        [
+          10,
+          11,
+          27
+        ],
+        [
+          10,
+          11,
+          23,
+          27
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.0457
+    },
+    {
+      "id": "c028",
+      "headline": "Upgrade our public transit first",
+      "body": "Working long shifts at the hospital means my schedule is completely unpredictable, leaving me entirely dependent on my car to get to work safely and on time. While I completely understand the city's goal of clearing up downtown traffic, charging motorists twelve dollars a day is completely unreasonable while our public transit system remains so desperately inadequate. City leaders need to focus on thoroughly fixing, upgrading, and expanding our buses and trains first, making them genuinely viable for all commuters, before implementing any driving fees.",
+      "stance": "support_with_changes",
+      "points": [
+        "The $12 daily charge is unreasonable given inadequate public transit.",
+        "City should improve and expand buses and trains before imposing fees."
+      ],
+      "point_ids": [
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.0397
+    },
+    {
+      "id": "c006",
+      "headline": "Sure, charging drivers will magically fix everything",
+      "body": "Oh brilliant, another brilliant masterstroke from geniuses who think throwing a price tag at an issue will completely erase downtown traffic overnight. Because nobody ever pays to enter a city center, right? Obviously this magical fee is going to instantly banish every single vehicle and leave pristine empty streets for us lucky folks. It is truly astonishing how charging twelve bucks will single handedly vaporize congestion like magic dust. Well, at least the council gets richer while we pretend gridlock is suddenly cured forever by financial penalties.",
+      "stance": "support_with_changes",
+      "points": [
+        "The charge will not effectively eliminate downtown traffic.",
+        "It primarily serves to increase council revenue.",
+        "Relying on price alone is an unrealistic solution to congestion."
+      ],
+      "point_ids": [
+        [
+          4
+        ],
+        [
+          21
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.1417
+    },
+    {
+      "id": "c003",
+      "headline": "Clearer roads ahead",
+      "body": "Working late hours means I miss the worst jams, but even off peak times are packed. This toll will definitely thin out downtown traffic and make getting around so much faster!",
+      "stance": "support",
+      "points": [
+        "The toll will thin downtown traffic and speed travel.",
+        "Even off‑peak times are currently congested."
+      ],
+      "point_ids": [
+        [
+          4
+        ],
+        [
+          36
+        ]
+      ],
+      "score": 0.9292
+    },
+    {
+      "id": "c014",
+      "headline": "Suburban retirees need exemptions",
+      "body": "While reducing traffic congestion is a noble municipal objective, the financial mechanism chosen remains deeply flawed. Specifically, a flat $12 a day is unfair to low-income drivers who have no alternative to driving. Fixed-income seniors traveling to medical appointments downtown should not face the same monetary penalty as affluent commuters.",
+      "stance": "support_with_changes",
+      "points": [
+        "Flat $12 fee unfair to low‑income drivers.",
+        "Seniors should receive exemptions for medical trips."
+      ],
+      "point_ids": [
+        [
+          14,
+          19,
+          28
+        ],
+        [
+          37
+        ]
+      ],
+      "score": 0.5182
+    },
+    {
+      "id": "c033",
+      "headline": "Downtown Commerce Will Devastate Stores",
+      "body": "Even with our delivery van exemption, this tax spells total disaster for neighborhood merchants. If private motorists refuse to pay the twelve dollars, downtown retail and eateries lose their vital customer base completely. No amount of bus funding helps local shops if people stay home or drive elsewhere. The city council is ignoring basic economics; starving merchants of foot traffic will destroy the very commercial heart of our community.",
+      "stance": "oppose",
+      "points": [
+        "Charge will reduce foot traffic to downtown stores.",
+        "Exempting delivery vans does not prevent loss of customers.",
+        "Bus funding cannot offset merchants' loss of customers.",
+        "Council is ignoring basic economic impacts on local businesses."
+      ],
+      "point_ids": [
+        [
+          13
+        ],
+        [
+          38
+        ],
+        [
+          23
+        ],
+        [
+          39
+        ]
+      ],
+      "score": 0.425
+    },
+    {
+      "id": "c046",
+      "headline": "Budget analysis reveals transparent revenue motive",
+      "body": "Teaching economics means I spend a lot of time analyzing municipal revenue streams and projected expenditures. The official narrative suggests forty five million dollars will transform our public transit network and cycling infrastructure. A closer examination of past municipal behavior strongly indicates the council will not really spend those funds on buses and bike lanes. Instead, this initiative functions as an efficient cash grab targeting commuters. Governments rarely keep these specific earmarks, redirecting surplus funds away from stated promises toward general administrative costs.",
+      "stance": "oppose",
+      "points": [
+        "The charge functions as an efficient cash grab on commuters.",
+        "Council will likely redirect the revenue to general administration.",
+        "Municipal history shows earmarked funds rarely stay for intended projects.",
+        "Expected bus and bike lane improvements are unlikely to materialize."
+      ],
+      "point_ids": [
+        [
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22
+        ],
+        [
+          22
+        ]
+      ],
+      "score": 0.1156
+    },
+    {
+      "id": "c038",
+      "headline": "Clear the air already",
+      "body": "Listen up. I drove buses in this city for thirty years and the smog was brutal. Cutting down the vehicle count is the only way to get some decent oxygen back into the streets. Look at the data from other cities that tried this. Less congestion always equals healthier lungs. People complain about the fee, but they are ignoring the big picture. We need this badly. Less traffic means cleaner air and better public health downtown. Period. End of story. Stop whining about twelve bucks when kids are growing up with asthma from breathing diesel fumes all day long. Make the change happen now.",
+      "stance": "support",
+      "points": [
+        "Reducing vehicle numbers will improve downtown air quality.",
+        "Less traffic leads to healthier lungs and public health.",
+        "The $12 fee is minor compared to asthma risks.",
+        "Other cities' data shows congestion charges work.",
+        "The city should implement the charge immediately."
+      ],
+      "point_ids": [
+        [
+          25
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          40
+        ],
+        [
+          41
+        ],
+        [
+          42
+        ]
+      ],
+      "score": 0.615
+    },
+    {
+      "id": "c024",
+      "headline": "Fix buses before charging drivers",
+      "body": "It is completely ridiculous to punish everyone with a daily fee when the current bus network is an absolute joke. Sure, taxis are exempt, but working people who rely on their vehicles are getting squeezed for cash while transit remains slow and unreliable. Why don't city officials actually fix and expand the public transport lines first, instead of inventing new ways to tax us for simply trying to do our jobs? Fix the system before demanding our money.",
+      "stance": "oppose",
+      "points": [
+        "The charge is unfair due to inadequate bus service.",
+        "City should improve public transport before imposing the charge."
+      ],
+      "point_ids": [
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.1171
+    },
+    {
+      "id": "c007",
+      "headline": "Need fewer cars downtown",
+      "body": "Getting to the hospital is brutal when roads are jammed. This fee is essential to thin out downtown traffic and keep emergency lanes moving.",
+      "stance": "support",
+      "points": [
+        "The fee is essential to reduce downtown traffic.",
+        "It will keep emergency lanes clear for ambulances."
+      ],
+      "point_ids": [
+        [
+          4,
+          41
+        ],
+        [
+          43
+        ]
+      ],
+      "score": 0.9607
+    },
+    {
+      "id": "c035",
+      "headline": "Terrible News for Downtown Merchants",
+      "body": "This charge is awful because customers will totally abandon downtown shops and restaurants to avoid paying the fee, leaving local businesses with zero foot traffic!",
+      "stance": "oppose",
+      "points": [
+        "Charge will drive customers away, harming downtown businesses."
+      ],
+      "point_ids": [
+        [
+          12,
+          13,
+          20
+        ]
+      ],
+      "score": 0.005
+    },
+    {
+      "id": "c004",
+      "headline": "Finally fewer cars clogging our lanes",
+      "body": "Riding my bicycle through the core every morning has felt like playing frogger with too many oversized SUVs for years now. Implementing this fee is long overdue and will remarkably cut down on downtown traffic, making the commute significantly safer for everyone on two wheels. I just hope the council actually follows through with building all the promised protected bike paths instead of dragging their feet for another decade. Fewer private vehicles blocking intersections means cyclists can finally travel without dodging impatient drivers at every single corner.",
+      "stance": "support_with_changes",
+      "points": [
+        "The congestion fee is long overdue.",
+        "The fee will make cycling commutes safer.",
+        "Council should promptly build promised protected bike paths."
+      ],
+      "point_ids": [
+        [
+          34
+        ],
+        [
+          17
+        ],
+        [
+          7,
+          17
+        ]
+      ],
+      "score": 0.1789
+    },
+    {
+      "id": "c042",
+      "headline": "Just another cash grab by the council",
+      "body": "As a freelance photographer driving all over Harborview with heavy gear, this toll hits me hard. They claim the forty five million dollars will go toward transit and bike lanes, but nobody actually believes that. This entire scheme is just a blatant cash grab disguised as environmental progress. The city council always finds new ways to squeeze money out of working people while pretending it is for the greater good. Do not fall for their promises about better buses because those funds will simply vanish into general revenue.",
+      "stance": "oppose",
+      "points": [
+        "The congestion charge is a cash grab by the council.",
+        "The revenue will be diverted to general revenue, not transit improvements.",
+        "The scheme unfairly burdens working people while claiming environmental benefits."
+      ],
+      "point_ids": [
+        [
+          21
+        ],
+        [
+          22
+        ],
+        [
+          14,
+          16,
+          27,
+          28
+        ]
+      ],
+      "score": 0.1267
+    },
+    {
+      "id": "c026",
+      "headline": "Transit must come first",
+      "body": "Build out reliable public transit networks across the entire city first. Only then should you even consider charging drivers a daily fee.",
+      "stance": "undecided",
+      "points": [
+        "Build reliable public transit networks across the entire city first.",
+        "Charging drivers a daily fee should wait until transit is built."
+      ],
+      "point_ids": [
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.007
+    },
+    {
+      "id": "c010",
+      "headline": "Because charging drivers always solves everything",
+      "body": "Oh joy, another fee to miraculously cure downtown traffic like a magical cure all tonic. Surely slapping a twelve dollar price tag on cars will instantly vanish all congestion and leave our streets looking like a ghost town. Because nobody values their time enough to actually pay it, right? It is genuinely hilarious how council expects this tax to effortlessly vaporize downtown traffic without causing any ripple effects elsewhere. But hey, as long as the rich can still cruise past fewer vehicles while the rest of us adjust, mission accomplished.",
+      "stance": "support_with_changes",
+      "points": [
+        "The charge will not effectively reduce congestion.",
+        "The $12 fee is unrealistic to eliminate traffic instantly.",
+        "The policy will have unintended ripple effects elsewhere.",
+        "The charge is unfair to low‑income drivers."
+      ],
+      "point_ids": [
+        [
+          44
+        ],
+        [
+          45
+        ],
+        [
+          12,
+          13,
+          18,
+          20
+        ],
+        [
+          14,
+          16
+        ]
+      ],
+      "score": 0.4473
+    },
+    {
+      "id": "c021",
+      "headline": "Fix school bus routes before taxing parents",
+      "body": "Dropping my two kids off at school requires navigating terrible morning traffic because our neighborhood has zero reliable bus options. Slapping a twelve-dollar fee on my commute feels entirely unfair when there are simply no alternative transit choices available. The council needs to establish dependable public transportation networks across every suburb first, rather than penalizing families who have no other way to get around.",
+      "stance": "oppose",
+      "points": [
+        "Charge is unfair without reliable bus alternatives.",
+        "Council should provide dependable suburb transit before charging."
+      ],
+      "point_ids": [
+        [
+          14,
+          15,
+          16,
+          27
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "score": 0.1281
+    }
+  ]
+}

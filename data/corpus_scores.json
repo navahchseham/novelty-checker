@@ -1,0 +1,1854 @@
+[
+  {
+    "id": "c025",
+    "angle_id": "T3",
+    "order": 1,
+    "score": 1.0,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 1.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "City needs smarter mobility solutions and safer infrastructure.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Transit improvements should precede financial penalties for drivers.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Fund and build frequent buses and extensive rail before charge.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "All three new points introduce arguments not covered by existing points, so no matches."
+  },
+  {
+    "id": "c036",
+    "angle_id": "T4",
+    "order": 2,
+    "score": 1.0,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 1.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The $12 charge will push shoppers to outer‑ring malls.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Both points introduce arguments not present in the existing points, so they have no matches."
+  },
+  {
+    "id": "c015",
+    "angle_id": "T2",
+    "order": 3,
+    "score": 0.85,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "A flat $12 daily fee is regressive for low-income drivers.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Students lack affordable alternative transit options.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "All three points are new and do not duplicate any existing points."
+  },
+  {
+    "id": "c032",
+    "angle_id": "T4",
+    "order": 4,
+    "score": 0.0498,
+    "status": "scored",
+    "n_point": 0.0820849986238988,
+    "n_sem": 0.0,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "The tax will keep everyone away from local businesses.",
+        "match_ids": [
+          12,
+          13
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      }
+    ],
+    "reason": "The new point repeats existing points 12 and 13 about the charge hurting local businesses, so it adds no new argument."
+  },
+  {
+    "id": "c011",
+    "angle_id": "T2",
+    "order": 5,
+    "score": 0.1448,
+    "status": "scored",
+    "n_point": 0.0820849986238988,
+    "n_sem": 0.5,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Flat $12 daily fee unfair to low-income and hourly workers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "Wealthier residents are less affected by the charge.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      }
+    ],
+    "reason": "Both points repeat existing arguments about the fee being regressive for low‑income drivers (points 14 and 16), so no new claims are introduced."
+  },
+  {
+    "id": "c049",
+    "angle_id": "M3",
+    "order": 6,
+    "score": 1.0,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 1.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Infrastructure upgrades, like protected bike lanes, justify the congestion charge.",
+        "match_ids": [
+          7
+        ],
+        "match": "Funds will support protected bike lanes.",
+        "restates_article": true,
+        "prior_mentions": 10,
+        "weight": 0.0
+      },
+      {
+        "point": "Protected bike lanes will make streets safer for cyclists.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Delivery fleets will need route optimization and schedule adjustments.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Points 2 and 3 are new arguments, while point 1 repeats the existing claim about protected bike lanes (point 7)."
+  },
+  {
+    "id": "c012",
+    "angle_id": "T2",
+    "order": 7,
+    "score": 0.4279,
+    "status": "scored",
+    "n_point": 0.5033689734995427,
+    "n_sem": 0.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Flat $12 daily charge is unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      },
+      {
+        "point": "Implement income‑based sliding scales instead of a flat fee.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Point 1 repeats existing points 14 and 16 about the regressive nature of the flat fee, while point 2 introduces a new proposal for income‑based sliding scales not covered before."
+  },
+  {
+    "id": "c017",
+    "angle_id": "T2",
+    "order": 8,
+    "score": 0.0351,
+    "status": "scored",
+    "n_point": 0.04131904149702332,
+    "n_sem": 0.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Flat $12 fee is unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      },
+      {
+        "point": "City should adopt income‑tiered pricing for congestion charges.",
+        "match_ids": [
+          19
+        ],
+        "match": "Implement income‑based sliding scales instead of a flat fee.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      }
+    ],
+    "reason": "Both points repeat earlier arguments: point 1 echoes points 14 and 16 about the fee’s unfairness to low‑income drivers, and point 2 echoes point 19’s call for income‑tiered pricing."
+  },
+  {
+    "id": "c029",
+    "angle_id": "T4",
+    "order": 9,
+    "score": 0.2543,
+    "status": "scored",
+    "n_point": 0.2550534602493141,
+    "n_sem": 0.25,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The $12 daily charge is counterproductive for downtown restaurants.",
+        "match_ids": [
+          12,
+          13
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      },
+      {
+        "point": "Patrons will avoid downtown dining due to extra cost.",
+        "match_ids": [
+          12,
+          13
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      },
+      {
+        "point": "Reduced foot traffic will harm local eateries.",
+        "match_ids": [
+          13
+        ],
+        "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      },
+      {
+        "point": "The charge could force permanent restaurant closures.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Points 1-3 repeat existing points 12 and 13, while point 4 introduces a new claim about potential restaurant closures."
+  },
+  {
+    "id": "c030",
+    "angle_id": "T4",
+    "order": 10,
+    "score": 0.1005,
+    "status": "scored",
+    "n_point": 0.0005530843701478336,
+    "n_sem": 0.6666666666666666,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Shoppers will avoid downtown, harming boutiques and cafes.",
+        "match_ids": [
+          12,
+          13,
+          20
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      }
+    ],
+    "reason": "The point that shoppers will avoid downtown harming boutiques and cafes repeats existing points 12, 13, and 20, so it is not new."
+  },
+  {
+    "id": "c043",
+    "angle_id": "T6",
+    "order": 11,
+    "score": 0.985,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.9,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Revenue may become a cash grab for budget shortfalls.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "No guarantee funds will be spent directly on public transit.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Improved bus routes sound appealing only on paper.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "All three points are new and do not repeat any existing points."
+  },
+  {
+    "id": "c039",
+    "angle_id": "T5",
+    "order": 12,
+    "score": 0.9864,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.9090909090909091,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Excess vehicle emissions produce harmful exhaust fumes downtown.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Removing excess vehicles will improve downtown air quality and health.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Both points are new, as no existing point addresses vehicle emissions or air-quality benefits of reducing traffic."
+  },
+  {
+    "id": "c031",
+    "angle_id": "T4",
+    "order": 13,
+    "score": 0.0,
+    "status": "scored",
+    "n_point": 3.026730689286405e-05,
+    "n_sem": 0.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The fee will push customers to suburban strip malls.",
+        "match_ids": [
+          12
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "Independent restaurants and retailers will disappear from Main Street.",
+        "match_ids": [
+          13,
+          20
+        ],
+        "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "A daily tax makes downtown visits too expensive for families.",
+        "match_ids": [
+          12,
+          14,
+          16
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 8,
+        "weight": 0.0
+      }
+    ],
+    "reason": "All three points repeat earlier arguments: point 1 matches existing point 12, point 2 matches points 13 and 20, and point 3 matches points 12, 14 and 16."
+  },
+  {
+    "id": "c009",
+    "angle_id": "T1",
+    "order": 14,
+    "score": 0.0742,
+    "status": "scored",
+    "n_point": 0.0,
+    "n_sem": 0.6923076923076923,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "Pricing externalities will reduce downtown congestion.",
+        "match_ids": [
+          4
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours.",
+        "restates_article": true,
+        "prior_mentions": 10,
+        "weight": 0.0
+      }
+    ],
+    "reason": "The claim that pricing externalities will reduce downtown congestion repeats existing point 4, so no new argument is introduced."
+  },
+  {
+    "id": "c001",
+    "angle_id": "T1",
+    "order": 15,
+    "score": 0.0689,
+    "status": "scored",
+    "n_point": 0.0,
+    "n_sem": 0.6428571428571429,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "The toll will clear streets and improve traffic flow.",
+        "match_ids": [
+          4
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours.",
+        "restates_article": true,
+        "prior_mentions": 11,
+        "weight": 0.0
+      }
+    ],
+    "reason": "The new point repeats existing point 4 about traffic reduction, so it is not new."
+  },
+  {
+    "id": "c047",
+    "angle_id": "M1",
+    "order": 16,
+    "score": 0.6857,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.7333333333333333,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "Resident discounts unfairly discriminate against non-resident commuters.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "The point about resident discounts being discriminatory is new and does not repeat any existing point."
+  },
+  {
+    "id": "c020",
+    "angle_id": "T2",
+    "order": 17,
+    "score": 0.106,
+    "status": "scored",
+    "n_point": 0.003370836826128773,
+    "n_sem": 0.6875,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Flat $12 daily charge is unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 5,
+        "weight": 0.0
+      },
+      {
+        "point": "Freelancers need tiered pricing instead of a flat charge.",
+        "match_ids": [
+          19
+        ],
+        "match": "Implement income‑based sliding scales instead of a flat fee.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      }
+    ],
+    "reason": "Both points repeat earlier arguments: point 1 mirrors points 14 and 16, and point 2 mirrors point 19."
+  },
+  {
+    "id": "c013",
+    "angle_id": "T2",
+    "order": 18,
+    "score": 0.5629,
+    "status": "scored",
+    "n_point": 0.6000001223609281,
+    "n_sem": 0.35294117647058826,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The flat $12 charge is unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      },
+      {
+        "point": "Essential workers lack viable public‑transport alternatives for early shifts.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Wealthier residents can afford the charge without changing habits.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "The toll is regressive, penalizing vulnerable wage earners.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      },
+      {
+        "point": "Council should reconsider the charge to protect essential staff.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Points 1 and 4 repeat existing points 14 and 16, while points 2, 3, and 5 present new arguments not previously made."
+  },
+  {
+    "id": "c022",
+    "angle_id": "T3",
+    "order": 19,
+    "score": 0.1781,
+    "status": "scored",
+    "n_point": 0.0820849986238988,
+    "n_sem": 0.7222222222222222,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Congestion pricing works only with robust alternative transportation.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "Expand train and bus services before implementing the charge.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      }
+    ],
+    "reason": "Both points repeat existing points 10 and 11, introducing no new arguments."
+  },
+  {
+    "id": "c044",
+    "angle_id": "T6",
+    "order": 20,
+    "score": 0.1728,
+    "status": "scored",
+    "n_point": 0.0547234343833727,
+    "n_sem": 0.8421052631578947,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The charge unfairly penalizes small businesses and serves as a cash grab.",
+        "match_ids": [
+          13,
+          20,
+          21
+        ],
+        "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures. | Revenue may become a cash grab for budget shortfalls.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      },
+      {
+        "point": "Council will not allocate revenue to promised transit improvements.",
+        "match_ids": [
+          21,
+          22,
+          23
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls. | No guarantee funds will be spent directly on public transit. | Improved bus routes sound appealing only on paper.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "Promised bike paths and bus routes are unlikely to materialize.",
+        "match_ids": [
+          22,
+          23
+        ],
+        "match": "No guarantee funds will be spent directly on public transit. | Improved bus routes sound appealing only on paper.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      }
+    ],
+    "reason": "All three points repeat existing arguments (cash‑grab/small‑business penalty, lack of guaranteed spending on transit, and doubtful implementation of bike paths and bus routes) and introduce no novel claims."
+  },
+  {
+    "id": "c048",
+    "angle_id": "M2",
+    "order": 21,
+    "score": 1.0,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 1.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Charge should apply weekends as well.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "The proposal to extend the charge to weekends is new and does not repeat any existing point."
+  },
+  {
+    "id": "c023",
+    "angle_id": "T3",
+    "order": 22,
+    "score": 0.0914,
+    "status": "scored",
+    "n_point": 0.006737946999085467,
+    "n_sem": 0.5714285714285714,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Charge should wait until transit is reliable and extensive.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      }
+    ],
+    "reason": "The submission repeats existing arguments that transit improvements should precede the charge (points 10 and 11); it introduces no new points."
+  },
+  {
+    "id": "c050",
+    "angle_id": "M4",
+    "order": 23,
+    "score": 1.0,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 1.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Consultation is a formality and council will ignore feedback.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "The claim that the consultation is a mere formality and will be ignored is not present in any existing point, so it is new."
+  },
+  {
+    "id": "c008",
+    "angle_id": "T1",
+    "order": 24,
+    "score": 0.9804,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.8695652173913043,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Disincentivizing single-occupancy vehicles reduces downtown traffic.",
+        "match_ids": [
+          4
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours.",
+        "restates_article": true,
+        "prior_mentions": 12,
+        "weight": 0.0
+      },
+      {
+        "point": "Exemption criteria require careful monitoring to protect local commerce.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "The congestion charge mechanism is mathematically sound.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Point 1 repeats the existing claim that the charge will reduce downtown traffic (matching point 4), while points 2 and 3 present new arguments not covered by any existing points."
+  },
+  {
+    "id": "c040",
+    "angle_id": "T5",
+    "order": 25,
+    "score": 0.1349,
+    "status": "scored",
+    "n_point": 0.04104251186694518,
+    "n_sem": 0.6666666666666666,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Fewer vehicles improve air quality and public health downtown.",
+        "match_ids": [
+          25
+        ],
+        "match": "Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "Extra fees burden drivers who rely on cars for work.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 7,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both new points duplicate existing arguments: point 1 matches point 25, and point 2 matches points 14 and 16."
+  },
+  {
+    "id": "c019",
+    "angle_id": "T2",
+    "order": 26,
+    "score": 0.078,
+    "status": "scored",
+    "n_point": 2.061153622438558e-09,
+    "n_sem": 0.52,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The flat fee is unfair to low‑income drivers lacking alternatives.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 8,
+        "weight": 0.0
+      }
+    ],
+    "reason": "The point repeats existing arguments (points 14 and 16) and introduces no new claim."
+  },
+  {
+    "id": "c034",
+    "angle_id": "T4",
+    "order": 27,
+    "score": 0.0247,
+    "status": "scored",
+    "n_point": 3.059023205018258e-07,
+    "n_sem": 0.23076923076923078,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "The charge will deter suburban shoppers, harming downtown businesses.",
+        "match_ids": [
+          12,
+          13,
+          20
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      }
+    ],
+    "reason": "The submission repeats existing points 12, 13, and 20, introducing no new claim."
+  },
+  {
+    "id": "c002",
+    "angle_id": "T1",
+    "order": 28,
+    "score": 0.0992,
+    "status": "scored",
+    "n_point": 0.0,
+    "n_sem": 0.9259259259259259,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "Congestion charge helps reduce vehicular congestion.",
+        "match_ids": [
+          4,
+          25
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours. | Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": true,
+        "prior_mentions": 15,
+        "weight": 0.0
+      },
+      {
+        "point": "Delivery exemptions must be strictly enforced.",
+        "match_ids": [
+          3,
+          32
+        ],
+        "match": "Taxis, small delivery vans, and disabled badge holders are exempt. | Exemption criteria require careful monitoring to protect local commerce.",
+        "restates_article": true,
+        "prior_mentions": 11,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both points repeat existing arguments (points 4 and 25 about congestion reduction and points 3 and 32 about delivery exemptions), so no new claims are introduced."
+  },
+  {
+    "id": "c041",
+    "angle_id": "T5",
+    "order": 29,
+    "score": 0.5056,
+    "status": "scored",
+    "n_point": 0.5002765421850739,
+    "n_sem": 0.5357142857142857,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Congestion pricing will improve air quality and public health.",
+        "match_ids": [
+          25
+        ],
+        "match": "Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      },
+      {
+        "point": "The scheme is overdue and needed to protect residents.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Point 1 repeats existing point 25 about air‑quality and health benefits, while point 2 presents a new claim that the scheme is overdue and needed to protect residents."
+  },
+  {
+    "id": "c018",
+    "angle_id": "T2",
+    "order": 30,
+    "score": 0.0751,
+    "status": "scored",
+    "n_point": 0.02754602772107881,
+    "n_sem": 0.3448275862068966,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "A flat $12 daily fee is unfair to low‑income drivers.",
+        "match_ids": [
+          14
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers.",
+        "restates_article": false,
+        "prior_mentions": 9,
+        "weight": 0.0
+      },
+      {
+        "point": "Suburban service workers lack viable public‑transport alternatives.",
+        "match_ids": [
+          27
+        ],
+        "match": "Essential workers lack viable public‑transport alternatives for early shifts.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "The city should implement means‑tested waivers for low‑income households.",
+        "match_ids": [
+          19
+        ],
+        "match": "Implement income‑based sliding scales instead of a flat fee.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      }
+    ],
+    "reason": "All three points repeat earlier arguments: point 1 matches existing point 14, point 2 matches point 27, and point 3 matches point 19."
+  },
+  {
+    "id": "c037",
+    "angle_id": "T5",
+    "order": 31,
+    "score": 0.025,
+    "status": "scored",
+    "n_point": 4.5399929762484854e-05,
+    "n_sem": 0.23333333333333334,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "Fewer cars will improve downtown air quality.",
+        "match_ids": [
+          24,
+          25
+        ],
+        "match": "Excess vehicle emissions produce harmful exhaust fumes downtown. | Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "Cleaner air will enhance public health downtown.",
+        "match_ids": [
+          24,
+          25
+        ],
+        "match": "Excess vehicle emissions produce harmful exhaust fumes downtown. | Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both points repeat existing arguments (points 24 and 25) about improved air quality and public health, so no new claims."
+  },
+  {
+    "id": "c016",
+    "angle_id": "T2",
+    "order": 32,
+    "score": 0.089,
+    "status": "scored",
+    "n_point": 0.002261115647578632,
+    "n_sem": 0.5806451612903226,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The flat $12 charge is unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 10,
+        "weight": 0.0
+      },
+      {
+        "point": "Early‑shift workers lack bus service, limiting transport alternatives.",
+        "match_ids": [
+          27
+        ],
+        "match": "Essential workers lack viable public‑transport alternatives for early shifts.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      },
+      {
+        "point": "Exemptions or sliding‑scale fees should be offered to hourly earners.",
+        "match_ids": [
+          19
+        ],
+        "match": "Implement income‑based sliding scales instead of a flat fee.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      }
+    ],
+    "reason": "All three points repeat earlier arguments: point 1 matches existing points 14 and 16, point 2 matches point 27, and point 3 matches point 19."
+  },
+  {
+    "id": "c045",
+    "angle_id": "T6",
+    "order": 33,
+    "score": 0.3997,
+    "status": "scored",
+    "n_point": 0.33782529799939026,
+    "n_sem": 0.75,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Financial analysis of the charge's broader implications is needed.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Council likely will not allocate revenue to promised transit projects.",
+        "match_ids": [
+          21,
+          22,
+          23
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls. | No guarantee funds will be spent directly on public transit. | Improved bus routes sound appealing only on paper.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      },
+      {
+        "point": "Policy is a cash grab to cover unrelated municipal deficits.",
+        "match_ids": [
+          21
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls.",
+        "restates_article": false,
+        "prior_mentions": 2,
+        "weight": 0.0067
+      }
+    ],
+    "reason": "Point 1 is new, calling for financial analysis, whereas points 2 and 3 repeat existing concerns about revenue not being spent on transit and the policy being a cash‑grab."
+  },
+  {
+    "id": "c027",
+    "angle_id": "T3",
+    "order": 34,
+    "score": 0.0457,
+    "status": "scored",
+    "n_point": 0.0002766187029514903,
+    "n_sem": 0.30303030303030304,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Congestion pricing works only with viable transportation alternatives.",
+        "match_ids": [
+          10,
+          11,
+          27
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge. | Essential workers lack viable public‑transport alternatives for early shifts.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      },
+      {
+        "point": "Current regional transit is sparse, slow, and inadequate.",
+        "match_ids": [
+          10,
+          11,
+          23,
+          27
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge. | Improved bus routes sound appealing only on paper. | Essential workers lack viable public‑transport alternatives for early shifts.",
+        "restates_article": false,
+        "prior_mentions": 9,
+        "weight": 0.0
+      },
+      {
+        "point": "Government should invest heavily in fixing and expanding transit first.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      },
+      {
+        "point": "Universal transit access must precede punitive driver fees.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      }
+    ],
+    "reason": "All four points echo existing arguments (e.g., the need for transit improvements before a charge) and introduce no novel claims."
+  },
+  {
+    "id": "c028",
+    "angle_id": "T3",
+    "order": 35,
+    "score": 0.0397,
+    "status": "scored",
+    "n_point": 4.5399929762484854e-05,
+    "n_sem": 0.2647058823529412,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The $12 daily charge is unreasonable given inadequate public transit.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "City should improve and expand buses and trains before imposing fees.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both points repeat existing arguments (points 10 and 11) that transit improvements should precede the charge, so no new claims are introduced."
+  },
+  {
+    "id": "c006",
+    "angle_id": "T1",
+    "order": 36,
+    "score": 0.1417,
+    "status": "scored",
+    "n_point": 0.00027840551165995617,
+    "n_sem": 0.9428571428571428,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The charge will not effectively eliminate downtown traffic.",
+        "match_ids": [
+          4
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours.",
+        "restates_article": true,
+        "prior_mentions": 14,
+        "weight": 0.0
+      },
+      {
+        "point": "It primarily serves to increase council revenue.",
+        "match_ids": [
+          21
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      },
+      {
+        "point": "Relying on price alone is an unrealistic solution to congestion.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 5,
+        "weight": 0.0
+      }
+    ],
+    "reason": "All three points repeat existing arguments (point 1 matches 4; point 2 matches 21; point 3 matches 10 and 11)."
+  },
+  {
+    "id": "c003",
+    "angle_id": "T1",
+    "order": 37,
+    "score": 0.9292,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.5277777777777778,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The toll will thin downtown traffic and speed travel.",
+        "match_ids": [
+          4
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours.",
+        "restates_article": true,
+        "prior_mentions": 15,
+        "weight": 0.0
+      },
+      {
+        "point": "Even off‑peak times are currently congested.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Point 1 repeats existing point 4 about traffic reduction, while point 2 introduces a new claim about off‑peak congestion not covered earlier."
+  },
+  {
+    "id": "c014",
+    "angle_id": "T2",
+    "order": 38,
+    "score": 0.5182,
+    "status": "scored",
+    "n_point": 0.50000000000057,
+    "n_sem": 0.6216216216216216,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Flat $12 fee unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          19,
+          28
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | Implement income‑based sliding scales instead of a flat fee. | Wealthier residents can afford the charge without changing habits.",
+        "restates_article": false,
+        "prior_mentions": 11,
+        "weight": 0.0
+      },
+      {
+        "point": "Seniors should receive exemptions for medical trips.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Point 1 repeats existing points about the flat $12 fee being regressive for low‑income drivers (e.g., points 14, 19, 28), while point 2 about senior medical‑trip exemptions is new."
+  },
+  {
+    "id": "c033",
+    "angle_id": "T4",
+    "order": 39,
+    "score": 0.425,
+    "status": "scored",
+    "n_point": 0.5000113562599385,
+    "n_sem": 0.0,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Charge will reduce foot traffic to downtown stores.",
+        "match_ids": [
+          13
+        ],
+        "match": "Reduced downtown foot traffic will harm restaurants and specialty retailers.",
+        "restates_article": false,
+        "prior_mentions": 7,
+        "weight": 0.0
+      },
+      {
+        "point": "Exempting delivery vans does not prevent loss of customers.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Bus funding cannot offset merchants' loss of customers.",
+        "match_ids": [
+          23
+        ],
+        "match": "Improved bus routes sound appealing only on paper.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "Council is ignoring basic economic impacts on local businesses.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Points 1 and 3 repeat existing points 13 and 23 respectively, while points 2 and 4 introduce new arguments not previously made."
+  },
+  {
+    "id": "c046",
+    "angle_id": "T6",
+    "order": 40,
+    "score": 0.1156,
+    "status": "scored",
+    "n_point": 0.0002992421499551592,
+    "n_sem": 0.7692307692307693,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The charge functions as an efficient cash grab on commuters.",
+        "match_ids": [
+          21
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "Council will likely redirect the revenue to general administration.",
+        "match_ids": [
+          21,
+          22
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls. | No guarantee funds will be spent directly on public transit.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "Municipal history shows earmarked funds rarely stay for intended projects.",
+        "match_ids": [
+          22
+        ],
+        "match": "No guarantee funds will be spent directly on public transit.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      },
+      {
+        "point": "Expected bus and bike lane improvements are unlikely to materialize.",
+        "match_ids": [
+          22
+        ],
+        "match": "No guarantee funds will be spent directly on public transit.",
+        "restates_article": false,
+        "prior_mentions": 3,
+        "weight": 0.0006
+      }
+    ],
+    "reason": "All four points repeat existing concerns about the charge being a cash grab and funds likely being misallocated, which are already covered by existing points 21 and 22."
+  },
+  {
+    "id": "c038",
+    "angle_id": "T5",
+    "order": 41,
+    "score": 0.615,
+    "status": "scored",
+    "n_point": 0.6000014906612688,
+    "n_sem": 0.7,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Reducing vehicle numbers will improve downtown air quality.",
+        "match_ids": [
+          25
+        ],
+        "match": "Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": false,
+        "prior_mentions": 5,
+        "weight": 0.0
+      },
+      {
+        "point": "Less traffic leads to healthier lungs and public health.",
+        "match_ids": [
+          24,
+          25
+        ],
+        "match": "Excess vehicle emissions produce harmful exhaust fumes downtown. | Removing excess vehicles will improve downtown air quality and health.",
+        "restates_article": false,
+        "prior_mentions": 5,
+        "weight": 0.0
+      },
+      {
+        "point": "The $12 fee is minor compared to asthma risks.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "Other cities' data shows congestion charges work.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "The city should implement the charge immediately.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Points 1 and 2 repeat existing points about air quality and health (matching points 25 and 24), while points 3, 4, and 5 are new arguments not previously made."
+  },
+  {
+    "id": "c024",
+    "angle_id": "T3",
+    "order": 42,
+    "score": 0.1171,
+    "status": "scored",
+    "n_point": 3.059023205018258e-07,
+    "n_sem": 0.7804878048780488,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The charge is unfair due to inadequate bus service.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      },
+      {
+        "point": "City should improve public transport before imposing the charge.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 6,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both points repeat earlier arguments (existing points 10 and 11) and introduce no new claims."
+  },
+  {
+    "id": "c007",
+    "angle_id": "T1",
+    "order": 43,
+    "score": 0.9607,
+    "status": "scored",
+    "n_point": 1.0,
+    "n_sem": 0.7380952380952381,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The fee is essential to reduce downtown traffic.",
+        "match_ids": [
+          4,
+          41
+        ],
+        "match": "Council expects traffic to drop 20% during peak hours. | Other cities' data shows congestion charges work.",
+        "restates_article": true,
+        "prior_mentions": 17,
+        "weight": 0.0
+      },
+      {
+        "point": "It will keep emergency lanes clear for ambulances.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      }
+    ],
+    "reason": "Point 1 repeats earlier arguments (e.g., points 4 and 41), while point 2 introduces a new claim about keeping emergency lanes clear."
+  },
+  {
+    "id": "c035",
+    "angle_id": "T4",
+    "order": 44,
+    "score": 0.005,
+    "status": "scored",
+    "n_point": 2.061153622438558e-09,
+    "n_sem": 0.046511627906976744,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "Charge will drive customers away, harming downtown businesses.",
+        "match_ids": [
+          12,
+          13,
+          20
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers. | The charge could force permanent restaurant closures.",
+        "restates_article": false,
+        "prior_mentions": 8,
+        "weight": 0.0
+      }
+    ],
+    "reason": "The submission repeats existing points (12, 13, 20) and introduces no new claim."
+  },
+  {
+    "id": "c005",
+    "angle_id": "T1",
+    "order": 45,
+    "score": 0.0,
+    "status": "no_points",
+    "n_point": null,
+    "n_sem": 0.8409090909090909,
+    "quality": null,
+    "added": false,
+    "points": [],
+    "reason": "no claims found"
+  },
+  {
+    "id": "c004",
+    "angle_id": "T1",
+    "order": 46,
+    "score": 0.1789,
+    "status": "scored",
+    "n_point": 0.0820849986238988,
+    "n_sem": 0.7272727272727273,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The congestion fee is long overdue.",
+        "match_ids": [
+          34
+        ],
+        "match": "The scheme is overdue and needed to protect residents.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "The fee will make cycling commutes safer.",
+        "match_ids": [
+          17
+        ],
+        "match": "Protected bike lanes will make streets safer for cyclists.",
+        "restates_article": false,
+        "prior_mentions": 1,
+        "weight": 0.0821
+      },
+      {
+        "point": "Council should promptly build promised protected bike paths.",
+        "match_ids": [
+          7,
+          17
+        ],
+        "match": "Funds will support protected bike lanes. | Protected bike lanes will make streets safer for cyclists.",
+        "restates_article": true,
+        "prior_mentions": 11,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Points 1 and 2 repeat earlier points (34 and 17), while point 3, though related to existing points 7 and 17, introduces a new call for prompt construction of the promised bike paths."
+  },
+  {
+    "id": "c042",
+    "angle_id": "T6",
+    "order": 47,
+    "score": 0.1267,
+    "status": "scored",
+    "n_point": 1.637552764741491e-05,
+    "n_sem": 0.8444444444444444,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The congestion charge is a cash grab by the council.",
+        "match_ids": [
+          21
+        ],
+        "match": "Revenue may become a cash grab for budget shortfalls.",
+        "restates_article": false,
+        "prior_mentions": 5,
+        "weight": 0.0
+      },
+      {
+        "point": "The revenue will be diverted to general revenue, not transit improvements.",
+        "match_ids": [
+          22
+        ],
+        "match": "No guarantee funds will be spent directly on public transit.",
+        "restates_article": false,
+        "prior_mentions": 4,
+        "weight": 0.0
+      },
+      {
+        "point": "The scheme unfairly burdens working people while claiming environmental benefits.",
+        "match_ids": [
+          14,
+          16,
+          27,
+          28
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably. | Essential workers lack viable public‑transport alternatives for early shifts. | Wealthier residents can afford the charge without changing habits.",
+        "restates_article": false,
+        "prior_mentions": 13,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Points 1 and 2 repeat existing concerns about the charge being a cash grab (21) and about funds not being guaranteed for transit (22), while point 3 echoes earlier arguments about the regressive impact on workers and low‑income drivers (14, 16, 27, 28)."
+  },
+  {
+    "id": "c026",
+    "angle_id": "T3",
+    "order": 48,
+    "score": 0.007,
+    "status": "scored",
+    "n_point": 2.510999155743982e-08,
+    "n_sem": 0.06521739130434782,
+    "quality": 2,
+    "added": true,
+    "points": [
+      {
+        "point": "Build reliable public transit networks across the entire city first.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 7,
+        "weight": 0.0
+      },
+      {
+        "point": "Charging drivers a daily fee should wait until transit is built.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 7,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both points repeat existing arguments (points 10 and 11) and introduce no new claims."
+  },
+  {
+    "id": "c010",
+    "angle_id": "T1",
+    "order": 49,
+    "score": 0.4473,
+    "status": "scored",
+    "n_point": 0.5000000000034739,
+    "n_sem": 0.14893617021276595,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "The charge will not effectively reduce congestion.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "The $12 fee is unrealistic to eliminate traffic instantly.",
+        "match_ids": [],
+        "match": null,
+        "restates_article": false,
+        "prior_mentions": 0,
+        "weight": 1.0
+      },
+      {
+        "point": "The policy will have unintended ripple effects elsewhere.",
+        "match_ids": [
+          12,
+          13,
+          18,
+          20
+        ],
+        "match": "The $12 charge will push shoppers to outer‑ring malls. | Reduced downtown foot traffic will harm restaurants and specialty retailers. | Delivery fleets will need route optimization and schedule adjustments. | The charge could force permanent restaurant closures.",
+        "restates_article": false,
+        "prior_mentions": 10,
+        "weight": 0.0
+      },
+      {
+        "point": "The charge is unfair to low‑income drivers.",
+        "match_ids": [
+          14,
+          16
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | The charge effectively taxes poverty instead of reducing congestion equitably.",
+        "restates_article": false,
+        "prior_mentions": 13,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Points 1 and 2 introduce new arguments, while point 3 repeats existing points 12,13,18,20 and point 4 repeats points 14 and 16."
+  },
+  {
+    "id": "c021",
+    "angle_id": "T3",
+    "order": 50,
+    "score": 0.1281,
+    "status": "scored",
+    "n_point": 1.030576837097054e-09,
+    "n_sem": 0.8541666666666666,
+    "quality": 3,
+    "added": true,
+    "points": [
+      {
+        "point": "Charge is unfair without reliable bus alternatives.",
+        "match_ids": [
+          14,
+          15,
+          16,
+          27
+        ],
+        "match": "A flat $12 daily fee is regressive for low-income drivers. | Students lack affordable alternative transit options. | The charge effectively taxes poverty instead of reducing congestion equitably. | Essential workers lack viable public‑transport alternatives for early shifts.",
+        "restates_article": false,
+        "prior_mentions": 15,
+        "weight": 0.0
+      },
+      {
+        "point": "Council should provide dependable suburb transit before charging.",
+        "match_ids": [
+          10,
+          11
+        ],
+        "match": "Transit improvements should precede financial penalties for drivers. | Fund and build frequent buses and extensive rail before charge.",
+        "restates_article": false,
+        "prior_mentions": 8,
+        "weight": 0.0
+      }
+    ],
+    "reason": "Both points repeat earlier arguments; point 1 matches existing points 14, 15, 16, 27 and point 2 matches points 10 and 11."
+  }
+]
